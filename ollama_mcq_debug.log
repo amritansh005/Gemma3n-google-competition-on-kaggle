@@ -1,0 +1,1785 @@
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+ERROR: 404 Client Error: Not Found for url: http://localhost:11434/generate
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the formula that relates the magnetic field contributed by the material core (Bm) to the magnetisation (M) of the material?
+Correct Answer: The formula is Bm = Âµ0M.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Bm = M / Âµ0",
+    "Bm = Âµ0M^2",
+    "Bm = M + Âµ0",
+    "Bm = Âµ0M"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the base compound in the naming of benzene derivatives?
+Correct Answer: The base compound in the naming of benzene derivatives is benzene.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The base compound in the naming of benzene derivatives is toluene.",
+    "The base compound in the naming of benzene derivatives is cyclohexane.",
+    "The base compound in the naming of benzene derivatives is benzene.",
+    "The base compound in the naming of benzene derivatives is phenol."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What does 'E' stand for in the 'ES' complex?
+Correct Answer: Enzyme
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Energy",
+    "Electron",
+    "Enzyme",
+    "Equilibrium"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What type of radiation is responsible for heating objects and their surroundings?
+Correct Answer: Infrared radiation
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Ultraviolet radiation",
+    "Gamma radiation",
+    "Visible light radiation",
+    "Infrared radiation"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the relationship between Gibbs Free Energy (Î”G) and the cell potential (E_cell) in an electrochemical reaction?
+Correct Answer: The relationship is given by the equation Î”G = -nFE_cell, where n is the number of moles of electrons transferred, F is the Faraday constant, and E_cell is the cell potential.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Î”G = nFE_cell, where Î”G is the standard enthalpy change.",
+    "E_cell = -Î”G/nF, where E_cell is the Gibbs Free Energy.",
+    "Î”G and E_cell are unrelated; they represent different thermodynamic properties.",
+    "Î”G = nFE_cell, where n is the number of moles of gas and F is the ideal gas constant."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two types of lymphocytes involved in the primary and secondary immune responses?
+Correct Answer: B-lymphocytes and T-lymphocytes
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Macrophages and Neutrophils",
+    "Plasma cells and Memory cells",
+    "B-lymphocytes and T-lymphocytes",
+    "Eosinophils and Basophils"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Who proposed the theory that accelerated charges radiate electromagnetic waves?
+Correct Answer: James Clerk Maxwell
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Albert Einstein",
+    "Isaac Newton",
+    "James Clerk Maxwell",
+    "Stephen Hawking"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the frequency range of visible light?
+Correct Answer: The frequency range of visible light is approximately 4 Ã— 10^14 Hz to 8 Ã— 10^14 Hz.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "1 Ã— 10^14 Hz to 2 Ã— 10^14 Hz",
+    "1 Ã— 10^15 Hz to 2 Ã— 10^15 Hz",
+    "4 Ã— 10^14 Hz to 8 Ã— 10^14 Hz",
+    "1 Ã— 10^12 Hz to 2 Ã— 10^12 Hz"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What ions are produced when a base ionizes in an aqueous solution according to the Arrhenius concept?
+Correct Answer: A base produces hydroxyl ions (OH-) and metal cations (M+) when it ionizes in an aqueous solution according to the Arrhenius concept.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. Hydrogen ions (H+) and hydroxide ions (OH-)",
+    "B. Sodium ions (Na+) and chloride ions (Cl-)",
+    "C. Hydroxyl ions (OH-) and ammonium ions (NH4+)",
+    "D. Metal cations (M+) and water molecules (H2O)"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the four important components of an ecosystem?
+Correct Answer: The four important components of an ecosystem are productivity, decomposition, energy flow, and nutrient cycling.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Population growth, species diversity, habitat destruction, climate change",
+    "Predation, competition, symbiosis, parasitism",
+    "Water, air, soil, sunlight",
+    "Productivity, decomposition, energy flow, nutrient cycling"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the restoring force responsible for the formation of gravity waves in water?
+Correct Answer: The restoring force responsible for the formation of gravity waves in water is the pull of gravity.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The surface tension of the water.",
+    "The wind blowing across the water's surface.",
+    "The pressure difference created by wave propagation.",
+    "The pull of gravity."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are diazonium salts and what is their general formula?
+Correct Answer: Diazonium salts are organic compounds with the general formula ArNâ‚‚âºXâ», where Ar is an aryl group and X is an anion.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "R-N=N-R' where R and R' are alkyl groups",
+    "ArN₂⁺X⁻, where Ar is an alkyl group and X is a halogen",
+    "ArN₃X, where Ar is an aryl group and X is a metal",
+    "ArN₂⁺X⁻, where Ar is an aryl group and X is an anion"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the estimated number of species on Earth according to Robert May?
+Correct Answer: Robert May estimates that there are about 7 million species on Earth.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Around 10 million species",
+    "Approximately 1 million species",
+    "Roughly 5 million species",
+    "About 2 million species"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two main types of processes in thermodynamics?
+Correct Answer: The two main types of processes in thermodynamics are reversible and irreversible processes.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Adiabatic and isothermal processes",
+    "Cyclic and open systems",
+    "Reversible and irreversible processes",
+    "Static and dynamic processes"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the formula for the frequency of the nth harmonic in a closed pipe?
+Correct Answer: The formula for the frequency of the nth harmonic in a closed pipe is Î½n = nv / 2L.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Î½n = (n+1)v / 4L",
+    "Î½n = nv / 4L",
+    "Î½n = nv / 2L",
+    "Î½n = (n-1)v / 2L"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is an impulsive force?
+Correct Answer: An impulsive force is a large force that acts for a short time to produce a finite change in momentum.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. A continuous force applied over a long duration.",
+    "B. A force that causes a gradual change in velocity.",
+    "C. A force acting for a brief period resulting in a change in momentum.",
+    "D. A force that always results in a change in mass."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the relationship between heat (Q), work (W), and the change in internal energy (Î”U) of a system according to the first law of thermodynamics?
+Correct Answer: The first law of thermodynamics states that the change in internal energy (Î”U) of a system is equal to the heat (Q) added to the system minus the work (W) done by the system. Mathematically, it is expressed as Î”U = Q - W.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Î”U = Q + W, where Î”U is the change in internal energy, Q is the heat added, and W is the work done on the system.",
+    "Î”U = Q * W, representing the product of heat and work in determining internal energy changes.",
+    "Î”U = Q + W, where Î”U is the change in internal energy, Q is the work done, and W is the heat added.",
+    "Î”U = Q - W, where Î”U is the change in internal energy, Q is the work done, and W is the heat added."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the name of the equation that relates pressure, velocity, and elevation of a fluid in a pipeline?
+Correct Answer: Bernoulli's Equation
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Archimedes' Principle",
+    "Pascal's Law",
+    "Bernoulli's Equation",
+    "Euler's Theorem"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the balanced chemical equation for the reaction between calcium carbonate and hydrochloric acid?
+Correct Answer: The balanced chemical equation for the reaction between calcium carbonate and hydrochloric acid is:
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "CaCO3(s) + 2HCl(aq) -> CaCl2(s) + H2O(g) + CO2(g)",
+    "CaCO3(aq) + 2HCl(g) -> CaCl2(s) + H2O(l) + CO2(g)",
+    "CaCO3(l) + HCl(l) -> CaCl2(s) + H2O(g) + CO2(g)",
+    "CaCO3(s) + HCl(g) -> CaCl2(s) + H2O(l) + CO2(s)"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the oxidation number of bromine in Br3O8?
+Correct Answer: The oxidation number of bromine in Br3O8 is (16/3).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "2",
+    "8/3",
+    "16/3",
+    "4"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What does a bond order of 2 between two atoms indicate?
+Correct Answer: A bond order of 2 indicates a double bond between the two atoms.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. A double bond between the two atoms.",
+    "B. A single bond between the two atoms.",
+    "C. A triple bond between the two atoms.",
+    "D. No bond exists between the two atoms."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the ions that make up sodium chloride?
+Correct Answer: The ions that make up sodium chloride are sodium ions (Naâº) and chloride ions (Clâ»).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Sodium atoms (Na) and chlorine atoms (Cl)",
+    "Sodium molecules (Na2) and chlorine molecules (Cl2)",
+    "Sodium ions (Na+) and chloride ions (Cl-)",
+    "Sodium radicals (Na•) and chlorine radicals (Cl•)"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the role of an indicator in a redox titration?
+Correct Answer: An indicator in a redox titration signals the endpoint of the reaction, which is the point at which the oxidant or reductant has been completely reacted.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "To provide a visual indication of the concentration of the oxidizing or reducing agent.",
+    "To neutralize the reactants and prevent unwanted side reactions.",
+    "To determine the molar mass of the analyte.",
+    "To facilitate the transfer of electrons between the reactants."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is a pedigree chart, and what information does it typically include?
+Correct Answer: A pedigree chart is a diagram that shows the occurrence and appearance of phenotypes of a particular gene or organism and its ancestors. It typically includes symbols for males and females, affected and unaffected individuals, and the relationships between family members.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A) A pedigree chart is a genealogical record detailing an individual's life events, including birthdates and marriages. It primarily focuses on personal history.",
+    "B) A pedigree chart is a visual representation of an organism's genetic lineage, illustrating inheritance patterns of traits and diseases across generations. It includes symbols for individuals and their relationships.",
+    "C) A pedigree chart is a statistical analysis tool used to predict the probability of offspring inheriting specific characteristics based solely on environmental factors.",
+    "D) A pedigree chart is a type of map showing geographical locations of individuals with a particular disease, used for epidemiological studies."
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What element is mentioned as being radioactive in proteins but not in DNA?
+Correct Answer: Sulfur
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Phosphorus",
+    "Carbon",
+    "Sulfur",
+    "Nitrogen"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the term used to describe the process by which organisms change over time to better suit their environment?
+Correct Answer: The term used to describe the process by which organisms change over time to better suit their environment is "evolution."
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Adaptation",
+    "Extinction",
+    "Mutation",
+    "Evolution"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What does the acronym STI stand for?
+Correct Answer: Sexually Transmitted Infections
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Stochastic Transmission Index",
+    "Standardized Treatment Initiative",
+    "Sexually Transmitted Infections",
+    "Scientific Testing Instrument"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Identify two types of ecosystems mentioned in the text.
+Correct Answer: Terrestrial and aquatic ecosystems.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Forest and desert ecosystems",
+    "Urban and agricultural ecosystems",
+    "Terrestrial and aquatic ecosystems",
+    "Oceanic and atmospheric ecosystems"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782C71910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782C71E20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782C71850>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782E0B4C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782E0BEB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782E148E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782E0B640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782C52370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782C71400>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782C4A5E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782E1C340>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782E14100>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782C71850>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020781C23C40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020782E0B550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17525940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17525790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17525070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1760C4F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1760CEE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17525EB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1760CE50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1760CB80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1760C160>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F174FABB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1760C3D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1760C580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F175251C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17616970>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F176123A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F175253A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1761C580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1761CF70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1761D9A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1761DD30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1761D730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F164BBF70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F1760CFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17622D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17620760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F164D3AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17500430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F164D3D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F175250A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17620310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17620EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F17622820>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F164CD730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000175618D1910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000175618D1E20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000175618D1850>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017561AA84C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017561AA8EB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017561AB48E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017561AA8640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000175618B1370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000175618D1A30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000175618AAAC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017561ABE310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017561AB4040>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000175618D1100>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017560882A90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017561AA8550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000240FFCCF940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000240FFCCF790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000240FFCCF070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000240FFE104F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000240FFE10EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AB41E2F940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AB41E2F790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AB41E2F070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AB41E544F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AB41E54EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: If the charge on sphere A is doubled, how will the force on sphere B change?
+Correct Answer: The force on sphere B will double as well, because the force is directly proportional to the charge on sphere A.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The force on sphere B will remain the same.",
+    "The force on sphere B will be halved.",
+    "The force on sphere B will quadruple.",
+    "The force on sphere B will decrease proportionally to the square root of the charge change."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the three main phenomena that support the wave nature of light?
+Correct Answer: The three main phenomena that support the wave nature of light are interference, diffraction, and polarization.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Reflection, refraction, and dispersion",
+    "Diffraction, reflection, and chromatic aberration",
+    "Interference, diffraction, and polarization",
+    "Absorption, scattering, and luminescence"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the unit of electric power?
+Correct Answer: The unit of electric power is the watt (W).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Volt (V)",
+    "Ampere (A)",
+    "Watt (W)",
+    "Ohm (Ω)"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the formula for binding energy per nucleon?
+Correct Answer: The formula for binding energy per nucleon is Ebn = Eb / A, where Eb is the binding energy of the nucleus and A is the number of nucleons.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Ebn = A / Eb",
+    "Ebn = Eb * A",
+    "Ebn = Eb / (A + 1)",
+    "Ebn = A * Eb"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the formula to calculate the rms value of the current in an AC circuit with a capacitor?
+Correct Answer: The formula to calculate the rms value of the current in an AC circuit with a capacitor is \( I_{rms} = \frac{V_{rms}}{X_C} \), where \( X_C \) is the capacitive reactance given by \( X_C = \frac{1}{2\pi fC} \).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "I_{rms} = V_{rms} * X_L, where X_L is the inductive reactance.",
+    "I_{rms} = V_{rms} / R, where R is the resistance.",
+    "I_{rms} = V_{rms} * X_C, where X_C is the capacitive reactance.",
+    "I_{rms} = V_{rms} / ωC, where ω is the angular frequency."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options very close to the correct answer, but still wrong.
+Question: Provide an example of a function controlled by the hypothalamus.
+Correct Answer: An example of a function controlled by the hypothalamus is the regulation of body temperature. The hypothalamus acts as the body's thermostat, maintaining a constant internal temperature by initiating responses such as sweating or shivering.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Regulation of blood glucose levels",
+    "Control of heart rate and blood pressure",
+    "Regulation of body temperature",
+    "Coordination of voluntary movement"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options very close to the correct answer, but still wrong.
+Question: Provide an example of how euglenoids adapt to different environmental conditions.
+Correct Answer: Euglenoids adapt to different environmental conditions by switching their mode of nutrition. In the presence of sunlight, they perform photosynthesis like plants. However, when sunlight is not available, they can act as heterotrophs, consuming organic matter to meet their energy needs. This dual capability allows them to thrive in both light and dark conditions.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Euglenoiids adapt to varying conditions by altering their cellular structure to withstand temperature fluctuations.",
+    "Euglenoiids primarily adapt by modifying their reproductive cycle to ensure survival in diverse habitats.",
+    "Euglenoiids demonstrate adaptability by changing their photosynthetic pigments to optimize light absorption in different environments.",
+    "Euglenoiids adapt to different environmental conditions by switching their mode of nutrition: performing photosynthesis when light is available and consuming organic matter when it is not."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options very close to the correct answer, but still wrong.
+Question: Provide an example of a detailed system used in the identification and classification of living organisms.
+Correct Answer: An example of a detailed system used in the identification and classification of living organisms is the Linnaean system of taxonomy, which includes categories such as kingdom, phylum, class, order, family, genus, and species.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The phylogenetic system, utilizing evolutionary relationships to classify organisms into hierarchical groups.",
+    "The binomial nomenclature system, which assigns each species a two-part name (genus and species).",
+    "The Linnaean system of taxonomy, encompassing categories like kingdom, phylum, class, order, family, genus, and species.",
+    "The genetic sequencing method, which relies on DNA analysis to determine evolutionary relationships and classify organisms."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options very close to the correct answer, but still wrong.
+Question: Provide an example of a neurotransmitter and explain its role in the transmission of nerve impulses at a chemical synapse.
+Correct Answer: An example of a neurotransmitter is acetylcholine. At a chemical synapse, acetylcholine is released from the pre-synaptic neuron, crosses the synaptic cleft, and binds to receptors on the post-synaptic neuron. This binding triggers the opening of ion channels, leading to the depolarization of the post-synaptic neuron and the continuation of the nerve impulse.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Dopamine is a neurotransmitter that binds to receptors on the post-synaptic neuron, causing a change in its electrical potential and facilitating nerve impulse transmission.",
+    "Serotonin, released at the synapse, diffuses across the cleft and binds to receptors, initiating a cascade of events that ultimately depolarize the receiving neuron.",
+    "Glutamate, a neurotransmitter, is released from the presynaptic neuron and binds to receptors on the postsynaptic neuron, leading to the opening of ion channels and subsequent neuronal depolarization.",
+    "Acetylcholine is released from the presynaptic neuron, diffuses across the synaptic cleft, and binds to receptors on the postsynaptic neuron, causing ion channel opening and initiating the propagation of the nerve impulse."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options very close to the correct answer, but still wrong.
+Question: Provide an example of a condition that can result from defective functioning of the thyroid gland.
+Correct Answer: An example of a condition that can result from defective functioning of the thyroid gland is cretinism, which is characterized by stunted growth and mental retardation.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Hyperthyroidism, characterized by an overactive thyroid and rapid heartbeat.",
+    "Cretinism, characterized by stunted growth and mental retardation.",
+    "Goiter, a non-cancerous swelling of the thyroid gland.",
+    "Diabetes, a metabolic disorder affecting blood sugar levels."
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the formula for the rate of flow of heat (heat current) in a material?
+Correct Answer: The formula for the rate of flow of heat (heat current) in a material is \( H = \frac{KA (T_C - T_D)}{L} \).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "H = KA(T_D - T_C) / L",
+    "H = KA(T_C - T_D) / L",
+    "H = LKA(T_C - T_D)",
+    "H = KA / (T_C - T_D)"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the mathematical formula for Newton's Law of Universal Gravitation?
+Correct Answer: The formula is \( F = G \frac{m_1 m_2}{r^2} \).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "F = m₁ + m₂ + r²",
+    "F = G * m₁ + m₂ * r",
+    "F = G * m₁ * m₂ / r",
+    "F = G * m₁ * m₂ / r²"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the formula for the energy emitted per unit time by a perfect radiator according to the Stefan-Boltzmann Law?
+Correct Answer: The formula is H = AÏƒT^4, where H is the energy emitted per unit time, A is the area, Ïƒ is the Stefan-Boltzmann constant, and T is the absolute temperature.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "H = A * Ïƒ * T^2",
+    "H = A * Ïƒ * T^3",
+    "H = A * Ïƒ * T^5",
+    "H = A * Ïƒ * T^4"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the definition of thermodynamic equilibrium?
+Correct Answer: Thermodynamic equilibrium is a state in which the macroscopic variables of a system, such as volume, temperature, mass, and composition, do not change with time.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. A state where internal energy is constant but temperature fluctuates.",
+    "B. A state where the system is undergoing a rapid change in chemical composition.",
+    "C. A state where heat transfer is occurring but the overall system properties remain stable.",
+    "D. A state where all macroscopic properties of the system remain constant over time."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the velocity of the point of contact (P3) when a cylinder rolls without slipping?
+Correct Answer: The velocity of the point of contact (P3) is zero when a cylinder rolls without slipping.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The velocity of the point of contact (P3) is equal to the velocity of the center of mass.",
+    "The velocity of the point of contact (P3) is equal to the velocity of the point on the circumference directly opposite the point of contact.",
+    "The velocity of the point of contact (P3) is zero when a cylinder rolls without slipping.",
+    "The velocity of the point of contact (P3) is equal to the product of the cylinder's angular velocity and radius."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the main phases of the cell cycle?
+Correct Answer: The main phases of the cell cycle are interphase and mitotic phase. Interphase includes G1, S, and G2 phases, while the mitotic phase includes mitosis and cytokinesis.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. Interphase (G1, S, G2) and Mitotic Phase (Mitosis, Cytokinesis)",
+    "B. Replication, Transcription, Translation, and Differentiation",
+    "C. Prophase, Metaphase, Anaphase, Telophase, and Interphase",
+    "D. Growth, DNA Repair, Protein Synthesis, and Cell Death"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two types of flower sexuality?
+Correct Answer: Bisexual and unisexual.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Hermaphroditic and gynoecious",
+    "Androecious and dioecious",
+    "Autogamous and allogamous",
+    "Sexual and asexual"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Identify the primary endocrine glands in the human body.
+Correct Answer: The primary endocrine glands in the human body are the pituitary, pineal, thyroid, adrenal, pancreas, parathyroid, thymus, and gonads (testis in males and ovary in females).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Liver, spleen, kidneys, bladder, and stomach",
+    "Heart, lungs, brain, liver, and intestines",
+    "Pituitary, pineal, thyroid, adrenal, pancreas, parathyroid, thymus, and gonads",
+    "Gallbladder, ureters, urethra, appendix, and rectum"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What percentage of carbon dioxide is carried by hemoglobin as carbamino-hemoglobin?
+Correct Answer: 20-25%
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "5-10%",
+    "30-40%",
+    "20-25%",
+    "50-60%"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the three types of archaebacteria mentioned in the text?
+Correct Answer: Halophiles, thermoacidophiles, and methanogens.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Bacteria, fungi, and viruses",
+    "Psychrophiles, mesophiles, and thermophiles",
+    "Halophiles, thermoaerobes, and lithotrophs",
+    "Gram-positive, Gram-negative, and Gram-variable"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the three main postulates of Bohr's atomic model?
+Correct Answer: The three main postulates of Bohr's atomic model are:
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Electrons orbit the nucleus at any distance, emitting energy continuously.",
+    "Electrons exist in specific, quantized energy levels and can only transition between them by absorbing or emitting energy.",
+    "The nucleus has a finite size and charge, attracting electrons with a constant force.",
+    "Electrons are distributed randomly throughout the atom, creating a diffuse cloud."
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What does the superposition principle in electrostatics allow us to do when calculating the force on a charge?
+Correct Answer: The superposition principle allows us to calculate the total force on a charge by summing the forces from each individual charge independently.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Calculate the electric field at a point by integrating over all charges.",
+    "Determine the electric potential at a point using only Coulomb's law.",
+    "Calculate the total force on a charge by summing the forces from each individual charge independently.",
+    "Predict the behavior of charges in a vacuum based on Maxwell's equations."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the direction of the magnetic field inside a solenoid?
+Correct Answer: The magnetic field inside a solenoid is directed along the axis of the solenoid.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Perpendicular to the length of the solenoid.",
+    "Radial, pointing outwards from the center of the solenoid.",
+    "Parallel to the length of the solenoid.",
+    "It fluctuates randomly in all directions."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are free electrons in a metal?
+Correct Answer: Free electrons in a metal are electrons that are not bound to any particular atom and are free to move within the metal.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Electrons tightly bound to the nucleus of atoms, responsible for chemical bonding.",
+    "Electrons that orbit the nucleus in fixed energy levels, similar to planets around a star.",
+    "Electrons that are part of a crystal lattice structure, rigidly fixed in position.",
+    "Electrons that are loosely bound and can move throughout the metal lattice, contributing to electrical conductivity."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Who are the scientists credited with the pioneering experiments on electromagnetic induction?
+Correct Answer: Faraday and Henry
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Einstein and Bohr",
+    "Newton and Galileo",
+    "Faraday and Henry",
+    "Curie and Planck"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the antiseptic properties of iodine attributed to?
+Correct Answer: The antiseptic properties of iodine are due to the liberation of free iodine.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Iodine's antiseptic properties are primarily due to its ability to inhibit bacterial cell wall synthesis.",
+    "The antiseptic effect of iodine stems from its strong oxidizing power, leading to the disruption of microbial proteins.",
+    "Iodine's antiseptic action is primarily caused by its ability to form a protective barrier on the skin, preventing microbial contact.",
+    "The antiseptic properties of iodine are attributed to its ability to produce a strong acidic environment, inhibiting bacterial growth."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What does the symbol Kf represent in the context of colligative properties?
+Correct Answer: Kf represents the molal freezing point depression constant.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Kf represents the molar boiling point elevation constant.",
+    "Kf represents the molal vapor pressure lowering constant.",
+    "Kf represents the molal heat capacity constant.",
+    "Kf represents the molar mass of the solvent."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Recognize the biomolecule that stores genetic information.
+Correct Answer: Nucleic acids, specifically DNA, store genetic information.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Proteins store essential fatty acids.",
+    "Lipids are responsible for long-term energy storage.",
+    "Carbohydrates primarily catalyze biochemical reactions.",
+    "Nucleic acids, specifically DNA, store genetic information."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the chemical formula for the carboxyl group?
+Correct Answer: The chemical formula for the carboxyl group is -COOH.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "CH3COOH",
+    "COOH",
+    "OHCOOH",
+    "C2H4O2"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the three main types of carbohydrates?
+Correct Answer: The three main types of carbohydrates are monosaccharides, oligosaccharides, and polysaccharides.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Lipids, proteins, and nucleic acids",
+    "Simple sugars, starches, and fibers",
+    "Monosaccharides, disaccharides, and polysaccharides",
+    "Amino acids, fatty acids, and vitamins"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the main difference between the S strain and the R strain of bacteria mentioned in the text?
+Correct Answer: The S strain has a mucous (polysaccharide) coat, while the R strain does not.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The S strain is more resistant to antibiotics than the R strain.",
+    "The R strain has a flagella, which the S strain lacks.",
+    "The S strain is spherical in shape, while the R strain is rod-shaped.",
+    "The S strain possesses a mucous (polysaccharide) coat, while the R strain does not."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two main factors that contribute to the growth of a population?
+Correct Answer: The two main factors that contribute to the growth of a population are births and immigration.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Decreased mortality rates and emigration",
+    "Births and emigration",
+    "Immigration and decreased birth rates",
+    "Deaths and natural disasters"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Identify the first group of vertebrates to appear in the evolutionary history.
+Correct Answer: Fish
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Amphibians",
+    "Reptiles",
+    "Fish",
+    "Birds"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the hormones secreted by Leydig cells called?
+Correct Answer: Androgens
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Estrogens",
+    "Progesterone",
+    "Androgens",
+    "Insulin"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What does the symbol 'K' represent in the context of population growth models?
+Correct Answer: 'K' represents the carrying capacity, which is the maximum population size that the environment can sustain.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The rate of population increase.",
+    "The average age of individuals in the population.",
+    "The amount of resources available to the population.",
+    "The carrying capacity, representing the maximum population size the environment can support."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the neurotransmitter released at the neuromuscular junction that initiates muscle contraction?
+Correct Answer: Acetylcholine
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Serotonin",
+    "Dopamine",
+    "Acetylcholine",
+    "GABA"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the term used to describe the heart's ability to generate its own electrical impulses?
+Correct Answer: Myogenic
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Cardiogenic",
+    "Mnogenic",
+    "Myogenic",
+    "Neurogenic"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the term for a bundle of muscle fibers?
+Correct Answer: Fascicle
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Sarcolemma",
+    "Myofibril",
+    "Fascicle",
+    "Endomysium"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the role of the hypothalamus in the endocrine system?
+Correct Answer: The hypothalamus produces hormones that are released into the bloodstream and travel to the pituitary gland, regulating its functions.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The hypothalamus directly secretes hormones that act on target organs, bypassing the pituitary gland.",
+    "The hypothalamus primarily functions as a storage site for hormones produced by the pancreas.",
+    "The hypothalamus controls blood pressure and heart rate through direct neural pathways, independent of hormonal regulation.",
+    "The hypothalamus receives sensory information and regulates body temperature, influencing the pituitary gland's hormone release."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the primary pigment found in cyanobacteria that enables them to perform photosynthesis?
+Correct Answer: Chlorophyll a
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Carotenoid",
+    "Phycocyanin",
+    "Xanthophyll",
+    "Chlorophyll a"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What type of genetic material was transferred from the virus to the bacteria in the experiment?
+Correct Answer: DNA
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "RNA",
+    "Protein",
+    "Lipid",
+    "DNA"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Who proposed the chromosomal theory of inheritance?
+Correct Answer: Sutton and Boveri proposed the chromosomal theory of inheritance.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Gregor Mendel",
+    "Charles Darwin",
+    "Sutton and Bovri",
+    "James Watson and Francis Crick"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the primary producers in an ecosystem?
+Correct Answer: The primary producers in an ecosystem are plants, which convert solar energy into chemical energy through photosynthesis.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Fungi and bacteria that decompose organic matter.",
+    "Herbivores that consume plants for energy.",
+    "Plants that convert sunlight into chemical energy through photosynthesis.",
+    "Carnivores that prey on other animals for sustenance."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Identify the function of the fimbriae.
+Correct Answer: The fimbriae are finger-like projections at the end of the fallopian tube that help to guide the ovum into the fallopian tube after ovulation.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The fimbriae secrete hormones to stimulate ovulation.",
+    "The fimbriae provide structural support to the uterus.",
+    "The fimbriae are sensory receptors that detect changes in uterine pressure.",
+    "The fimbriae are finger-like projections at the end of the fallopian tube that help to guide the ovum into the fallopian tube after ovulation."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the primary and secondary lymphoid organs?
+Correct Answer: The primary lymphoid organs are the bone marrow and thymus. The secondary lymphoid organs include the spleen, lymph nodes, tonsils, and mucosa-associated lymphoid tissue (MALT).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. Liver and kidneys; gallbladder and pancreas",
+    "B. Bone marrow and thymus; spleen, lymph nodes, and tonsils",
+    "C. Heart and lungs; brain and spinal cord",
+    "D. Spleen and tonsils; bone marrow and thymus"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the molar mass of liquid A in the given problem?
+Correct Answer: The molar mass of liquid A is 140 g mol^-1.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "80 g mol^-1",
+    "280 g mol^-1",
+    "140 g mol^-1",
+    "70 g mol^-1"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the formula for calculating the freezing point depression of a solution?
+Correct Answer: The formula for calculating the freezing point depression of a solution is Î”Tf = Kf Ã— m, where Î”Tf is the change in freezing point, Kf is the freezing point depression constant for the solvent, and m is the molality of the solute.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Î”Tf = Kp Ã— m, where Î”Tf is the change in freezing point, Kp is the vapor pressure lowering constant, and m is the molality of the solute.",
+    "Î”Tf = Kf Ã— m, where Î”Tf is the change in freezing point, Kf is the boiling point elevation constant for the solvent, and m is the mass of the solute.",
+    "Î”Tf = Kf Ã— m, where Î”Tf is the change in freezing point, Kf is the freezing point depression constant for the solute, and m is the molarity of the solvent.",
+    "Î”Tf = KÃ— m, where Î”Tf is the change in freezing point, K is the colligative property constant, and m is the volume of the solution."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the process called when an external voltage is applied to drive a chemical reaction in an electrolytic cell?
+Correct Answer: The process is called electrolysis.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Photocatalysis",
+    "Redox reaction",
+    "Electrolysis",
+    "Chemical synthesis"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the process by which dry hydrogen chloride increases the electrophilicity of the carbonyl carbon in carbonyl compounds?
+Correct Answer: Dry hydrogen chloride protonates the oxygen of the carbonyl compounds, which increases the electrophilicity of the carbonyl carbon.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Dry HCl acts as a nucleophile, attacking the carbonyl carbon and increasing its electron density.",
+    "Dry HCl removes electrons from the carbonyl group, making the carbonyl carbon more susceptible to nucleophilic attack.",
+    "Dry HCl forms a complex with the carbonyl oxygen, stabilizing the molecule and decreasing the electrophilicity of the carbonyl carbon.",
+    "Dry HCl reduces the carbonyl group to an alcohol, thereby decreasing the electrophilicity of the carbonyl carbon."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: State the effect of adding a solute to a solvent on the freezing point of the solution.
+Correct Answer: The freezing point of the solution is lowered.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The freezing point of the solution is raised.",
+    "The freezing point of the solution remains the same.",
+    "The freezing point of the solution is increased significantly.",
+    "The freezing point of the solution is only affected if the solute is a gas."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the term for the smaller circular DNA molecules found in many bacteria that confer unique phenotypic characteristics?
+Correct Answer: Plasmids
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Chromosomes",
+    "Ribosomes",
+    "Viruses",
+    "Plasmids"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What ions are primarily involved in maintaining the resting membrane potential?
+Correct Answer: Sodium (Na+) and potassium (K+) ions are primarily involved in maintaining the resting membrane potential.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Calcium (Ca2+) and chloride (Cl-) ions",
+    "Magnesium (Mg2+) and phosphate (PO43-) ions",
+    "Sodium (Na+) and chloride (Cl-) ions",
+    "Sodium (Na+) and potassium (K+) ions"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the fluid that moves out of the capillaries into the spaces between the cells of tissues called?
+Correct Answer: Interstitial fluid or tissue fluid.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Plasma",
+    "Lymph",
+    "Interstitial fluid",
+    "Serum"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Which phylum includes animals with a notochord?
+Correct Answer: Phylum Chordata
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Phylum Arthropoda",
+    "Phylum Mollusca",
+    "Phylum Chordata",
+    "Phylum Echinodermata"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Provide an example of a plant that exhibits isogamy.
+Correct Answer: An example of a plant that exhibits isogamy is Chlamydomonas, a type of green alga. In isogamy, the gametes are morphologically similar and can fuse with any other gamete to form a zygote, unlike in anisogamy where there are distinct male and female gametes.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. Rosa (Rose), a flowering plant with distinct male and female reproductive structures.",
+    "B. Oryza sativa (Rice), a monocotyledonous plant that undergoes cross-pollination.",
+    "C. Chlamydomonas, a type of green alga exhibiting morphologically similar gametes.",
+    "D. Pinus (Pine), a gymnosperm that relies on wind pollination for fertilization."
+  ],
+  "answer_index": 2
+}
+```
+========================================

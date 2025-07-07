@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exam MCQ Tester</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    .question-block { margin-bottom: 2em; }
+    .mcq-options label { display: block; }
+    .section { margin-bottom: 1.5em; }
+    .btn { padding: 0.5em 1em; }
+  </style>
+</head>
+<body>
+  <h1>Exam MCQ Tester</h1>
+  <div class="section">
+    <form id="examForm">
+      <h2>Select Subjects and Options</h2>
+      <div>
+        <label><input type="checkbox" name="subject" value="physics" checked> Physics</label>
+        <label><input type="checkbox" name="subject" value="chemistry" checked> Chemistry</label>
+        <label><input type="checkbox" name="subject" value="biology" checked> Biology</label>
+      </div>
+      <div>
+        Grade:
+        <select id="grade">
+          <option value="random">Random</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        Difficulty:
+        <select id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <!-- Number of Questions field removed -->
+      </div>
+      <div>
+        <label>User ID: <input type="text" id="user_id" value="testuser"></label>
+      </div>
+      <button type="submit" class="btn">Generate Exam</button>
+    </form>
+  </div>
+  <div class="section" id="mcqSection" style="display:none;">
+    <h2>MCQs</h2>
+    <form id="mcqForm"></form>
+    <button id="submitAnswers" class="btn" style="display:none;">Submit Answers</button>
+    <div id="scoreResult"></div>
+  </div>
+  <script>
+    const backendUrl = "http://127.0.0.1:8000";
+    let examId = null;
+    let mcqs = [];
+
+    document.getElementById('examForm').onsubmit = async function(e) {
+      e.preventDefault();
+      // Gather selected subjects
+      const selectedSubjects = Array.from(document.querySelectorAll('input[name="subject"]:checked')).map(cb => cb.value);
+      if (selectedSubjects.length === 0) {
+        alert("Select at least one subject.");
+        return;
+      }
+      const grade = document.getElementById('grade').value;
+      const difficulty = document.getElementById('difficulty').value;
+      // num_questions removed
+      const user_id = document.getElementById('user_id').value || "testuser";
+      // Build subjects array
+      const subjects = selectedSubjects.map(subj => ({
+        subject: subj,
+        grade: grade,
+        topic: "random",
+        difficulty: difficulty
+      }));
+      // Call /generate_exam
+      const res = await fetch(backendUrl + "/generate_exam", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          subjects: subjects,
+          language: "en",
+          user_id: user_id
+        })
+      });
+      if (!res.ok) {
+        alert("Failed to generate exam: " + (await res.text()));
+        return;
+      }
+      const data = await res.json();
+      examId = data.exam_id;
+      // Call /generate_mcqs with questions array
+      const mcqRes = await fetch(backendUrl + "/generate_mcqs", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ questions: data.questions })
+      });
+      if (!mcqRes.ok) {
+        alert("Failed to generate MCQs: " + (await mcqRes.text()));
+        return;
+      }
+      const mcqData = await mcqRes.json();
+      mcqs = mcqData.mcqs;
+      showMcqs();
+    };
+
+    function showMcqs() {
+      const mcqSection = document.getElementById('mcqSection');
+      const mcqForm = document.getElementById('mcqForm');
+      mcqForm.innerHTML = "";
+      mcqs.forEach((mcq, idx) => {
+        const block = document.createElement('div');
+        block.className = "question-block";
+        block.innerHTML = `<b>Q${idx+1}:</b> ${mcq.question}<div class="mcq-options"></div>`;
+        const optionsDiv = block.querySelector('.mcq-options');
+        mcq.options.forEach((opt, optIdx) => {
+          const optId = `q${idx}_opt${optIdx}`;
+          optionsDiv.innerHTML += `
+            <label>
+              <input type="radio" name="q${idx}" value="${optIdx}" required>
+              ${String.fromCharCode(65+optIdx)}. ${opt}
+            </label>
+          `;
+        });
+        mcqForm.appendChild(block);
+      });
+      mcqSection.style.display = "";
+      document.getElementById('submitAnswers').style.display = "";
+      document.getElementById('scoreResult').innerText = "";
+    }
+
+    document.getElementById('submitAnswers').onclick = async function(e) {
+      e.preventDefault();
+      const answers = {};
+      let allAnswered = true;
+      mcqs.forEach((mcq, idx) => {
+        const selected = document.querySelector(`input[name="q${idx}"]:checked`);
+        if (selected) {
+          answers[idx] = parseInt(selected.value, 10);
+        } else {
+          allAnswered = false;
+        }
+      });
+      if (!allAnswered) {
+        alert("Please answer all questions.");
+        return;
+      }
+      // Calculate score
+      let correct = 0;
+      mcqs.forEach((mcq, idx) => {
+        if (answers[idx] === mcq.answer_index) correct++;
+      });
+      const score = `${correct} / ${mcqs.length}`;
+      document.getElementById('scoreResult').innerText = "Your Score: " + score;
+    };
+  </script>
+</body>
+</html>

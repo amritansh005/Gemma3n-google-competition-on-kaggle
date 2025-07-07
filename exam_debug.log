@@ -1,0 +1,175 @@
+Exam ID: testuser_testuser_85530
+Requested subjects: [{'subject': 'physics', 'grade': '12', 'topic': 'Infrared Radiation and the Greenhouse Effect', 'difficulty': 'easy', 'num_questions': 2}, {'subject': 'chemistry', 'grade': '12', 'topic': 'Gibbs Free Energy and Cell Potential', 'difficulty': 'easy', 'num_questions': 2}, {'subject': 'biology', 'grade': '12', 'topic': 'Immune Response and Memory', 'difficulty': 'easy', 'num_questions': 2}]
+Number of questions returned: 3
+Subjects: ['Physics', 'Chemistry', 'Biology']
+========================================
+DB: NCERT_Physics_12th/Physics_12th_Cleaned.sqlite, Table: Physics_12th_Cleaned, Subject: Physics, Grade: 12, Topic: Electromagnetic Waves and Accelerated Charges, Difficulty: easy, Found: 2
+DB: NCERT_Chemistry_11th/Chemsitry_11th_Cleaned.sqlite, Table: Chemsitry_11th_Cleaned, Subject: Chemistry, Grade: 11, Topic: Acids and Bases (Arrhenius vs. BrÃ¶nsted-Lowry Concepts), Difficulty: easy, Found: 1
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Topic: Ecosystems and Productivity, Difficulty: easy, Found: 1
+Exam ID: testuser_testuser_21475
+Requested subjects: [{'subject': 'physics', 'grade': '12', 'topic': 'Electromagnetic Waves and Accelerated Charges', 'difficulty': 'easy', 'num_questions': 2}, {'subject': 'chemistry', 'grade': '11', 'topic': 'Acids and Bases (Arrhenius vs. BrÃ¶nsted-Lowry Concepts)', 'difficulty': 'easy', 'num_questions': 2}, {'subject': 'biology', 'grade': '12', 'topic': 'Ecosystems and Productivity', 'difficulty': 'easy', 'num_questions': 2}]
+Number of questions returned: 4
+Subjects: ['Physics', 'Physics', 'Chemistry', 'Biology']
+========================================
+DB: NCERT_Physics_11th/Physics_11th_Cleaned.sqlite, Table: Physics_11th_Cleaned, Subject: Physics, Grade: 11, Topic: Waves in Fluids (Specifically, Water Waves), Difficulty: easy, Found: 1
+DB: NCERT_Chemistry_12th/Chemsitry_12th_Cleaned.sqlite, Table: Chemsitry_12th_Cleaned, Subject: Chemistry, Grade: 12, Topic: Diazonium Salts and Their Role in Synthesis of Aromatic Compounds, Difficulty: easy, Found: 1
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Topic: Biodiversity and Species Estimation, Difficulty: easy, Found: 1
+Exam ID: testuser_testuser_79286
+Requested subjects: [{'subject': 'physics', 'grade': '11', 'topic': 'Waves in Fluids (Specifically, Water Waves)', 'difficulty': 'easy'}, {'subject': 'chemistry', 'grade': '12', 'topic': 'Diazonium Salts and Their Role in Synthesis of Aromatic Compounds', 'difficulty': 'easy'}, {'subject': 'biology', 'grade': '12', 'topic': 'Biodiversity and Species Estimation', 'difficulty': 'easy'}]
+Number of questions returned: 3
+Subjects: ['Physics', 'Chemistry', 'Biology']
+========================================
+DB: NCERT_Physics_11th/Physics_11th_Cleaned.sqlite, Table: Physics_11th_Cleaned, Subject: Physics, Grade: 11, Difficulty: easy, Found: 1751
+DB: NCERT_Chemistry_11th/Chemsitry_11th_Cleaned.sqlite, Table: Chemsitry_11th_Cleaned, Subject: Chemistry, Grade: 11, Difficulty: easy, Found: 1912
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: testuser_testuser_60447
+Requested subjects: [{'subject': 'physics', 'grade': '11', 'difficulty': 'easy'}, {'subject': 'chemistry', 'grade': '11', 'difficulty': 'easy'}, {'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 15
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Physics_12th/Physics_12th_Cleaned.sqlite, Table: Physics_12th_Cleaned, Subject: Physics, Grade: 12, Difficulty: easy, Found: 1747
+DB: NCERT_Chemistry_12th/Chemsitry_12th_Cleaned.sqlite, Table: Chemsitry_12th_Cleaned, Subject: Chemistry, Grade: 12, Difficulty: easy, Found: 1367
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: testuser_testuser_10326
+Requested subjects: [{'subject': 'physics', 'grade': '12', 'difficulty': 'easy'}, {'subject': 'chemistry', 'grade': '12', 'difficulty': 'easy'}, {'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 15
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Physics_11th/Physics_11th_Cleaned.sqlite, Table: Physics_11th_Cleaned, Subject: Physics, Grade: 11, Difficulty: easy, Found: 1751
+Exam ID: testuser_testuser_62873
+Requested subjects: [{'subject': 'physics', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics']
+========================================
+DB: NCERT_Physics_12th/Physics_12th_Cleaned.sqlite, Table: Physics_12th_Cleaned, Subject: Physics, Grade: 12, Difficulty: easy, Found: 1747
+DB: NCERT_Chemistry_11th/Chemsitry_11th_Cleaned.sqlite, Table: Chemsitry_11th_Cleaned, Subject: Chemistry, Grade: 11, Difficulty: easy, Found: 1912
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: testuser_testuser_89635
+Requested subjects: [{'subject': 'physics', 'grade': '12', 'difficulty': 'easy'}, {'subject': 'chemistry', 'grade': '11', 'difficulty': 'easy'}, {'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 15
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Physics_12th/Physics_12th_Cleaned.sqlite, Table: Physics_12th_Cleaned, Subject: Physics, Grade: 12, Difficulty: easy, Found: 1747
+DB: NCERT_Chemistry_11th/Chemsitry_11th_Cleaned.sqlite, Table: Chemsitry_11th_Cleaned, Subject: Chemistry, Grade: 11, Difficulty: easy, Found: 1912
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: testuser_testuser_38613
+Requested subjects: [{'subject': 'physics', 'grade': '12', 'difficulty': 'easy'}, {'subject': 'chemistry', 'grade': '11', 'difficulty': 'easy'}, {'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 15
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Physics_12th/Physics_12th_Cleaned.sqlite, Table: Physics_12th_Cleaned, Subject: Physics, Grade: 12, Difficulty: easy, Found: 1747
+DB: NCERT_Chemistry_12th/Chemsitry_12th_Cleaned.sqlite, Table: Chemsitry_12th_Cleaned, Subject: Chemistry, Grade: 12, Difficulty: easy, Found: 1367
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: testuser_testuser_23718
+Requested subjects: [{'subject': 'physics', 'grade': '12', 'difficulty': 'easy'}, {'subject': 'chemistry', 'grade': '12', 'difficulty': 'easy'}, {'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 15
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: testuser_testuser_16693
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Physics_11th/Physics_11th_Cleaned.sqlite, Table: Physics_11th_Cleaned, Subject: Physics, Grade: 11, Difficulty: medium, Found: 1760
+Exam ID: testuser_testuser_68836
+Requested subjects: [{'subject': 'physics', 'grade': '11', 'difficulty': 'medium'}]
+Number of questions returned: 5
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics']
+========================================
+DB: NCERT_Physics_12th/Physics_12th_Cleaned.sqlite, Table: Physics_12th_Cleaned, Subject: Physics, Grade: 12, Difficulty: easy, Found: 1747
+Exam ID: testuser_testuser_12161
+Requested subjects: [{'subject': 'physics', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: hard, Found: 1162
+Exam ID: testuser_testuser_14628
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'hard'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Physics_11th/Physics_11th_Cleaned.sqlite, Table: Physics_11th_Cleaned, Subject: Physics, Grade: 11, Difficulty: easy, Found: 1751
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: testuser_testuser_85163
+Requested subjects: [{'subject': 'physics', 'grade': '11', 'difficulty': 'easy'}, {'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 10
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Physics_12th/Physics_12th_Cleaned.sqlite, Table: Physics_12th_Cleaned, Subject: Physics, Grade: 12, Difficulty: easy, Found: 1747
+DB: NCERT_Chemistry_12th/Chemsitry_12th_Cleaned.sqlite, Table: Chemsitry_12th_Cleaned, Subject: Chemistry, Grade: 12, Difficulty: easy, Found: 1367
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: testuser_testuser_46765
+Requested subjects: [{'subject': 'physics', 'grade': '12', 'difficulty': 'easy'}, {'subject': 'chemistry', 'grade': '12', 'difficulty': 'easy'}, {'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 15
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: testuser_testuser_69519
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Physics_11th/Physics_11th_Cleaned.sqlite, Table: Physics_11th_Cleaned, Subject: Physics, Grade: 11, Difficulty: easy, Found: 1751
+DB: NCERT_Chemistry_12th/Chemsitry_12th_Cleaned.sqlite, Table: Chemsitry_12th_Cleaned, Subject: Chemistry, Grade: 12, Difficulty: easy, Found: 1367
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_11703
+Requested subjects: [{'subject': 'physics', 'grade': '11', 'difficulty': 'easy'}, {'subject': 'chemistry', 'grade': '12', 'difficulty': 'easy'}, {'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 15
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_89933
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_13497
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_20334
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_85354
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Physics_12th/Physics_12th_Cleaned.sqlite, Table: Physics_12th_Cleaned, Subject: Physics, Grade: 12, Difficulty: easy, Found: 1747
+Exam ID: localuser_localuser_55885
+Requested subjects: [{'subject': 'physics', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Physics', 'Physics', 'Physics', 'Physics', 'Physics']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_98015
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_46291
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_94726
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Chemistry_12th/Chemsitry_12th_Cleaned.sqlite, Table: Chemsitry_12th_Cleaned, Subject: Chemistry, Grade: 12, Difficulty: easy, Found: 1367
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_82905
+Requested subjects: [{'subject': 'chemistry', 'grade': '12', 'difficulty': 'easy'}, {'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 10
+Subjects: ['Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
