@@ -1,0 +1,94 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_23580",
+  "answers": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": "",
+    "4": ""
+  },
+  "questions": [
+    {
+      "Topic": "Population Growth Models",
+      "Explanation": "Population growth can be modeled in different ways, with two common models being exponential growth and logistic growth. Exponential growth occurs when resources are unlimited, leading to a rapid increase in population size. Logistic growth, on the other hand, considers the limitations of resources and competition among individuals, leading to a more controlled growth rate.",
+      "Question": "What is the term used to describe the rapid increase in population size when resources are unlimited?",
+      "Answer": "Exponential growth",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "Conceptual",
+      "QuestionComplexity": 0.473529412,
+      "Prerequisites": "Population Ecology",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Biodiversity and Ecosystem Stability",
+      "Explanation": "Biodiversity refers to the variety of life at genetic, species, and ecosystem levels. Ecosystem stability is the ability of an ecosystem to maintain its structure and function over time, despite external disturbances. Ecologists have long debated the relationship between biodiversity and ecosystem stability, with many believing that more diverse ecosystems tend to be more stable. This is because a diverse ecosystem has a greater variety of species that can perform different functions, making it more resilient to changes and disturbances.",
+      "Question": "Recall the relationship between biodiversity and ecosystem stability as proposed by ecologists.",
+      "Answer": "Ecologists have proposed that communities with more species tend to be more stable than those with fewer species.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.375,
+      "Prerequisites": "Ecosystem Structure and Components, Biodiversity Concepts",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Human Reproductive Physiology",
+      "Explanation": "The human reproductive system involves several key components and processes. Leydig cells, found in the testes, produce testosterone, which is crucial for male reproductive health. Oogenesis, the process of forming egg cells, occurs in the ovaries. The menstrual cycle, regulated by hormones like estrogen and progesterone, prepares the female body for potential pregnancy. Parturition, or childbirth, is influenced by hormones such as oxytocin and relaxin. The hymen, a membrane at the vaginal opening, is not a reliable indicator of virginity as it can be affected by various activities, not just sexual intercourse.",
+      "Question": "Is the menstrual cycle affected during pregnancy? (True/False)",
+      "Answer": "True. The menstrual cycle ceases during pregnancy due to the hormonal changes that support the growth and development of the fetus.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.3,
+      "Prerequisites": "Menstrual Cycle, Pregnancy and Childbirth",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Parasitism",
+      "Explanation": "Parasitism is a type of symbiotic relationship where one organism, known as the parasite, benefits at the expense of another organism, known as the host. Parasites can be classified based on their location on or in the host. Ectoparasites live on the external surface of the host, while endoparasites live inside the host. Parasites have evolved various mechanisms to derive nutrition and other benefits from their hosts, often leading to adaptations such as the loss of certain features like chlorophyll in parasitic plants.",
+      "Question": "What are ectoparasites, and can you name two common examples?",
+      "Answer": "Ectoparasites are parasites that live on the external surface of the host organism. Two common examples are lice on humans and ticks on dogs.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.275,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Population Growth and Ecological Interactions",
+      "Explanation": "Population growth refers to the increase in the number of individuals in a population over time. It can be exponential or logistic, depending on various factors such as resources, space, and predation. Ecological interactions describe the relationships between different species in an ecosystem, such as mutualism, commensalism, and parasitism.",
+      "Question": "What is the term used to describe the rate at which a population increases when resources are unlimited?",
+      "Answer": "The term used to describe the rate at which a population increases when resources are unlimited is the intrinsic rate of increase (r).",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "Conceptual",
+      "QuestionComplexity": 0.498611111,
+      "Prerequisites": "Population Ecology",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    }
+  ],
+  "score": 0.0,
+  "correct": 0,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "12",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-07 23:50:24"
+}

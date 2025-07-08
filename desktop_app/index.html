@@ -7,10 +7,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="app">
-        <h1>Welcome to the Desktop App</h1>
-        <p>This is the starting point for the desktop app frontend.</p>
+    <div id="app" style="display: flex; min-height: 100vh;">
+        <div id="sidebar" style="width: 220px; background: #232946; color: #fff; display: flex; flex-direction: column; align-items: flex-start; padding-top: 40px;">
+            <div class="sidebar-title" style="font-size: 1.7em; font-weight: bold; margin-left: 24px; margin-bottom: 40px;">EduSuite</div>
+            <div class="sidebar-tab active" id="tab-mcq" style="padding: 16px 24px; width: 100%; cursor: pointer;">MCQ Exam</div>
+            <div class="sidebar-tab" id="tab-history" style="padding: 16px 24px; width: 100%; cursor: pointer;">Previous Tests</div>
+            <div class="sidebar-tab" style="padding: 16px 24px; width: 100%; color: #aaa; cursor: not-allowed;">More features<br>coming soon</div>
+        </div>
+        <div id="main-content" style="flex: 1; background: #f4f6fc; color: #222; min-height: 100vh; padding: 40px;">
+            <div id="mcq-section">
+                <h1>MCQ Exam Generator</h1>
+                <p>Generate and take MCQ exams by selecting your preferences.</p>
+                <!-- MCQ Exam UI goes here (placeholder for now) -->
+                <div style="margin-top: 2em; color: #888;">[MCQ Exam UI Placeholder]</div>
+            </div>
+            <div id="previous-tests-section" style="display: none;">
+                <h2>Previous Tests</h2>
+                <div id="previous-tests-list"></div>
+                <div id="test-details" style="margin-top:1em;">
+                    <canvas id="performance-graph" width="400" height="200" style="display:none;"></canvas>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

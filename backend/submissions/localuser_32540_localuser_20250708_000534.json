@@ -1,0 +1,146 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_32540",
+  "answers": {
+    "0": "Arthropoda, meaning 'jointed foot'",
+    "1": "Collateral vascular bundles",
+    "2": "Proteins that build the neuron's structure, released within the neuron's cytoplasm.",
+    "3": "Glycolysis and Krebs Cycle",
+    "4": "Charles Darwin"
+  },
+  "questions": [
+    {
+      "Topic": "Annelida (Segmented Worms)",
+      "Explanation": "Annelida is a phylum of segmented worms, characterized by bilateral symmetry, triploblastic organization, and a coelomate body cavity. Their bodies are divided into segments called metameres, each containing similar sets of organs. Annelids have well-developed muscular and circulatory systems. Some aquatic annelids have lateral appendages called parapodia for swimming, and they possess nephridia for excretion.",
+      "Question": "What is the phylum name for segmented worms, and what does the name mean in Latin?",
+      "Answer": "The phylum name for segmented worms is Annelida, which means \"little ring\" in Latin.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.446875,
+      "Prerequisites": "Taxonomic Hierarchy and Classification",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Structure of Monocotyledonous Stem ###",
+      "Explanation": "Monocotyledonous stems have a distinct structure characterized by scattered vascular bundles, each surrounded by a sclerenchymatous bundle sheath. These vascular bundles are conjoint, meaning they contain both xylem and phloem tissue. The stem also features a sclerenchymatous hypodermis and a large, conspicuous parenchymatous ground tissue. This structure supports the plant and facilitates the transport of water, nutrients, and photosynthetic products.",
+      "Question": "What type of vascular bundles are found in a monocotyledonous stem?",
+      "Answer": "Conjoint vascular bundles.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.325,
+      "Prerequisites": "Root and Stem Morphology, Plant Structure and Organization",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Neural Control and Coordination",
+      "Explanation": "Neural control and coordination involve the transmission of signals between neurons in the nervous system. When a nerve impulse reaches the end of a neuron, it triggers the release of neurotransmitters into the synaptic cleft. These neurotransmitters bind to specific receptors on the post-synaptic membrane, opening ion channels and allowing ions to enter the post-synaptic neuron. This process can generate a new potential in the post-synaptic neuron, which can be either excitatory (stimulating further action) or inhibitory (preventing further action).",
+      "Question": "What are neurotransmitters, and where are they released?",
+      "Answer": "Neurotransmitters are chemical messengers released into the synaptic cleft by the pre-synaptic neuron.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.246875,
+      "Prerequisites": "Nervous System and Neural Control, Neurons and Nerve Impulses",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Photosynthesis",
+      "Explanation": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy in the form of glucose (sugar). This process occurs in two stages: the light-dependent reactions and the light-independent reactions (also known as the Calvin cycle or dark reactions). During the light-dependent reactions, light energy is absorbed by chlorophyll and other pigments, driving the production of ATP (adenosine triphosphate) and NADPH (nicotinamide adenine dinucleotide phosphate). These energy-rich molecules are then used in the light-independent reactions to fix carbon dioxide (CO2) into organic compounds like glucose.",
+      "Question": "What are the two main stages of photosynthesis?",
+      "Answer": "The two main stages of photosynthesis are the light-dependent reactions and the light-independent reactions (Calvin cycle).",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.25,
+      "Prerequisites": "Photosynthetic Mechanisms and Processes",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Classification of Living Organisms",
+      "Explanation": "The classification of living organisms is the process of categorizing organisms into groups based on shared characteristics. Historically, this was done for practical purposes such as food, shelter, and clothing. Aristotle was one of the earliest scientists to attempt a more systematic classification using morphological (physical) features, dividing plants into trees, shrubs, and herbs, and animals into different groups.",
+      "Question": "Who was the earliest scientist to attempt a more scientific basis for the classification of living organisms?",
+      "Answer": "Aristotle",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.473529412,
+      "Prerequisites": "Introduction to Living World and Taxonomy, Taxonomic Hierarchy and Classification",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    }
+  ],
+  "questions_with_answers": [
+    {
+      "question_id": "",
+      "question": "What is the phylum name for segmented worms, and what does the name mean in Latin?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "The phylum name for segmented worms is Annelida, which means \"little ring\" in Latin.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "What type of vascular bundles are found in a monocotyledonous stem?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "Conjoint vascular bundles.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "What are neurotransmitters, and where are they released?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "Neurotransmitters are chemical messengers released into the synaptic cleft by the pre-synaptic neuron.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "What are the two main stages of photosynthesis?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "The two main stages of photosynthesis are the light-dependent reactions and the light-independent reactions (Calvin cycle).",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "Who was the earliest scientist to attempt a more scientific basis for the classification of living organisms?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "Aristotle",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    }
+  ],
+  "score": 0.0,
+  "correct": 0,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "11",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-08 00:05:34"
+}

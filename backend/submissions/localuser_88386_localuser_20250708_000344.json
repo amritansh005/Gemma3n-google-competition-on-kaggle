@@ -1,0 +1,146 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_88386",
+  "answers": {
+    "0": "Asteroid impact and volcanic eruptions",
+    "1": "Community",
+    "2": "Gene amplification",
+    "3": "A. Isaac Newton, a 17th-century English physicist and mathematician, known for his laws of motion and universal gravitation.",
+    "4": "The theory that traits are determined solely by environmental factors."
+  },
+  "questions": [
+    {
+      "Topic": "Evolution and Extinction of Dinosaurs",
+      "Explanation": "Dinosaurs vanished from Earth around 66 million years ago. Scientists have proposed several reasons for this mysterious disappearance. One theory suggests that drastic changes in climate, possibly due to events like volcanic eruptions or asteroid impacts, made it difficult for dinosaurs to survive. Another idea is that some dinosaurs evolved into birds, which are their modern-day descendants. While dinosaurs disappeared, some small reptiles from that era managed to survive. These reptiles were better suited to the changing environment. Additionally, mammals began to thrive. Mammals had advantages such as the ability to regulate their body temperature and better ways to protect their young, which helped them adapt and prosper in the new conditions.",
+      "Question": "What are the two main theories mentioned in the text for the disappearance of dinosaurs?",
+      "Answer": "The two main theories mentioned are climatic changes and the evolution of dinosaurs into birds.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.396666667,
+      "Prerequisites": "Evolutionary Concepts",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Population Ecology",
+      "Explanation": "Population ecology is the study of how populations of organisms interact with their environment and other populations. A population is a group of individuals of the same species that live in the same geographical area, share resources, and potentially interbreed. This concept is crucial for understanding ecological dynamics, including competition, resource sharing, and reproductive behaviors.",
+      "Question": "What is the term used to describe a group of individuals of the same species that live in the same geographical area and share resources?",
+      "Answer": "The term used is \"population.\"",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "Conceptual",
+      "QuestionComplexity": 0.646,
+      "Prerequisites": "Population Ecology",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Insertional Inactivation in Recombinant DNA Technology",
+      "Explanation": "Insertional inactivation is a technique used in recombinant DNA technology where a foreign DNA fragment is inserted into the coding sequence of an enzyme, such as Î²-galactosidase. This insertion disrupts the gene, preventing the synthesis of the enzyme. When a chromogenic substrate is present, bacteria with an uninterrupted Î²-galactosidase gene will produce blue-colored colonies, while those with the insert will produce colorless colonies due to the inactivation of the enzyme.",
+      "Question": "What is the process called when a foreign DNA fragment is inserted into the coding sequence of an enzyme, leading to the disruption of the enzyme's synthesis?",
+      "Answer": "The process is called insertional inactivation.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.69537037,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "The Impact of Physics and Chemistry on Technology and Human Welfare",
+      "Explanation": "The development of physics and chemistry has significantly influenced the creation of technologies and industries that enhance human comfort and welfare. This approach, which became anthropocentric (focused on human needs and benefits), has its roots in the philosophical and scientific advancements of the 17th century, notably contributed by thinkers like Rene Descartes. These sciences have led to engineering innovations and technological advancements that improve the quality of human life.",
+      "Question": "Who was Rene Descartes and what fields did he contribute to?",
+      "Answer": "Rene Descartes was a French philosopher, mathematician, and biologist of the 17th century.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.3,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Genetics and Inheritance",
+      "Explanation": "Mendel's laws of segregation and independent assortment describe how traits are passed from parents to offspring. These laws align with how chromosomes behave during meiosis, the process that produces gametes (sperm and egg cells). This connection led to the Chromosomal Theory of Inheritance. However, Mendel's law of independent assortment has a limitation. It does not apply to genes located on the same chromosome, known as linked genes. Linked genes tend to stay together during inheritance. If genes are closely located on the same chromosome, they usually assort together. If they are far apart, they may assort independently due to a process called recombination.",
+      "Question": "What is the Chromosomal Theory of Inheritance?",
+      "Answer": "The Chromosomal Theory of Inheritance is an extension of Mendel's laws that explains how genes are carried on chromosomes and how they segregate and assort during meiosis.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.225,
+      "Prerequisites": "Mendelian Genetics",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    }
+  ],
+  "questions_with_answers": [
+    {
+      "question_id": "",
+      "question": "What are the two main theories mentioned in the text for the disappearance of dinosaurs?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "The two main theories mentioned are climatic changes and the evolution of dinosaurs into birds.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "What is the term used to describe a group of individuals of the same species that live in the same geographical area and share resources?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "The term used is \"population.\"",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "What is the process called when a foreign DNA fragment is inserted into the coding sequence of an enzyme, leading to the disruption of the enzyme's synthesis?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "The process is called insertional inactivation.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "Who was Rene Descartes and what fields did he contribute to?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "Rene Descartes was a French philosopher, mathematician, and biologist of the 17th century.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "What is the Chromosomal Theory of Inheritance?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "The Chromosomal Theory of Inheritance is an extension of Mendel's laws that explains how genes are carried on chromosomes and how they segregate and assort during meiosis.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    }
+  ],
+  "score": 0.0,
+  "correct": 0,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "12",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-08 00:03:44"
+}

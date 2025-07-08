@@ -1,0 +1,146 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_96174",
+  "answers": {
+    "0": "Stanley Cohen",
+    "1": "B. A species that has been introduced to a new environment and negatively impacts the local ecosystem.",
+    "2": "C. A technique involving the insertion of foreign DNA into an organism's genome to alter its characteristics.",
+    "3": "Visual Nucleotide Tracking Record",
+    "4": "The study of individual organisms within a defined habitat."
+  },
+  "questions": [
+    {
+      "Topic": "Restriction Enzymes",
+      "Explanation": "Restriction enzymes are proteins produced by bacteria that cut DNA at specific sites. They are part of the bacterial defense mechanism against viruses. Each restriction enzyme recognizes a specific sequence of nucleotides and cuts the DNA at that point. This property makes them useful in genetic engineering and molecular biology for manipulating DNA segments.",
+      "Question": "Who discovered restriction enzymes in the E. coli bacterium?",
+      "Answer": "Herbert Boyer",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.275,
+      "Prerequisites": "Genetic Engineering and Recombinant DNA Technology",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Invasive Species and Ecosystem Instability",
+      "Explanation": "Invasive species are non-native organisms introduced into an ecosystem where they are not typically found. These species can achieve very high population densities and cause ecosystem instability because the new environment lacks their natural predators. An example is the prickly pear cactus introduced into Australia in the 1920s, which spread rapidly and caused significant damage to rangelands before being brought under control.",
+      "Question": "What is an invasive species?",
+      "Answer": "An invasive species is a non-native organism introduced into an ecosystem where it is not typically found, often causing harm to the environment, economy, or human health.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.15,
+      "Prerequisites": "Ecosystem Structure and Components",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Recombinant DNA Technology",
+      "Explanation": "Recombinant DNA technology involves the manipulation of DNA sequences to create new combinations of genetic material. This technology allows scientists to insert specific genes into the DNA of bacteria or yeast, enabling these organisms to produce desired proteins, such as antigenic polypeptides of pathogens. These proteins can then be used to create vaccines, which can be produced on a large scale, making them more widely available for immunization. For example, the hepatitis B vaccine is produced using recombinant DNA technology in yeast.",
+      "Question": "What is recombinant DNA technology?",
+      "Answer": "Recombinant DNA technology is the process of manipulating DNA sequences to create new combinations of genetic material.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.15,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "DNA Fingerprinting",
+      "Explanation": "DNA fingerprinting is a technique used to identify individuals based on their unique DNA sequences. It involves the use of Variable Number of Tandem Repeats (VNTRs), which are short DNA sequences that repeat multiple times in a head-to-tail manner. The number of repeats varies greatly among individuals, resulting in VNTRs of different sizes. When DNA is cut with restriction enzymes and hybridized with a VNTR probe, the resulting autoradiogram shows a pattern of bands that is unique to each individual, except for identical twins. This pattern can be used for identification purposes, such as in forensic investigations or paternity testing.",
+      "Question": "What does VNTR stand for in the context of DNA fingerprinting?",
+      "Answer": "Variable Number of Tandem Repeats",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.3,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Ecological Interactions and Population Dynamics",
+      "Explanation": "Ecological interactions describe how organisms relate to each other in their environment. There are several types: 1. Commensalism: One organism benefits while the other is neither helped nor harmed. For example, a bird building its nest in a tree benefits from the tree, but the tree is unaffected. 2. Parasitism: One organism (the parasite) benefits at the expense of another (the host). For instance, a tick feeds on a dog's blood, harming the dog. 3. Mutualism: Both organisms benefit. An example is the relationship between bees and flowers; bees get nectar, and flowers get pollinated. 4. Competition: Both organisms are harmed as they compete for limited resources like food or space. Population dynamics studies how populations change over time. The logistic population growth curve shows that population growth is not unlimited. Initially, the population grows rapidly, but as resources like food and space become scarce, growth slows down and eventually stops. This curve highlights how environmental factors limit population size.",
+      "Question": "What is the definition of a community in ecology?",
+      "Answer": "A community in ecology refers to all the populations of different species that live and interact in a specific area.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.25,
+      "Prerequisites": "Population Ecology",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    }
+  ],
+  "questions_with_answers": [
+    {
+      "question_id": "0",
+      "question": "Who discovered restriction enzymes in the E. coli bacterium?",
+      "options": null,
+      "user_answer": "Stanley Cohen",
+      "correct_answer": "Herbert Boyer",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "1",
+      "question": "What is an invasive species?",
+      "options": null,
+      "user_answer": "B. A species that has been introduced to a new environment and negatively impacts the local ecosystem.",
+      "correct_answer": "An invasive species is a non-native organism introduced into an ecosystem where it is not typically found, often causing harm to the environment, economy, or human health.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "2",
+      "question": "What is recombinant DNA technology?",
+      "options": null,
+      "user_answer": "C. A technique involving the insertion of foreign DNA into an organism's genome to alter its characteristics.",
+      "correct_answer": "Recombinant DNA technology is the process of manipulating DNA sequences to create new combinations of genetic material.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "3",
+      "question": "What does VNTR stand for in the context of DNA fingerprinting?",
+      "options": null,
+      "user_answer": "Visual Nucleotide Tracking Record",
+      "correct_answer": "Variable Number of Tandem Repeats",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "4",
+      "question": "What is the definition of a community in ecology?",
+      "options": null,
+      "user_answer": "The study of individual organisms within a defined habitat.",
+      "correct_answer": "A community in ecology refers to all the populations of different species that live and interact in a specific area.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    }
+  ],
+  "score": 0.0,
+  "correct": 0,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "12",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-08 00:28:09"
+}

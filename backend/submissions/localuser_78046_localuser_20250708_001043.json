@@ -1,0 +1,146 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_78046",
+  "answers": {
+    "0": "Rabbits and Hamsters",
+    "1": "The root cell",
+    "2": "Mitosis",
+    "3": "Ethylene inhibits seed and bud dormancy, preventing premature germination.",
+    "4": "Smooth muscles; regulating digestion."
+  },
+  "questions": [
+    {
+      "Topic": "Classification in Biology",
+      "Explanation": "Classification in biology is the process of organizing living things into groups based on shared characteristics. This helps scientists study and understand the diversity of life more effectively. For example, 'Dogs' and 'Cats' are specific types of animals, while 'Mammals' is a broader category that includes animals with external ears and body hair. Similarly, 'Wheat' and 'Rice' are specific types of plants. Classification helps in identifying and distinguishing different organisms.",
+      "Question": "What are the two specific types of animals mentioned in the text?",
+      "Answer": "Dogs and Cats",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.322916667,
+      "Prerequisites": "Introduction to Living World and Taxonomy, Taxonomic Hierarchy and Classification",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Plant Structure and Function",
+      "Explanation": "Plant cells, tissues, and organs each have a specific structure that helps them perform their unique functions. Imagine a plant like a building. The building is made of different rooms (organs), each room is made of bricks (tissues), and each brick is made of smaller particles (cells). In plants, organs like leaves, roots, and stems are composed of various tissues. For example, the leaf has tissues for photosynthesis, support, and transport. Each tissue is made up of specialized cells designed for specific tasks. For instance, guard cells in leaves control the opening and closing of stomata for gas exchange. Plants go through developmental stages. First, there's the vegetative phase where the plant grows leaves, stems, and roots. Later, the plant enters the flowering phase. All these structures originate from a single cell called the zygote, which divides and differentiates into various cell types.",
+      "Question": "What is the first cell from which all other cells of a plant originate?",
+      "Answer": "The zygote.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.375,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Meiosis",
+      "Explanation": "Meiosis is a type of cell division that reduces the number of chromosomes in the parent cell by half to produce four genetically unique haploid cells. It is crucial for sexual reproduction as it produces gametes (sperm and egg cells in animals, and pollen and ovules in plants). Meiosis consists of two consecutive divisions, meiosis I and meiosis II, each involving several phases.",
+      "Question": "What is the process called that produces haploid daughter cells?",
+      "Answer": "Meiosis",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.275,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "The Role of Ethylene in Plant Growth and Development",
+      "Explanation": "Ethylene is a gaseous plant hormone that plays a crucial role in various aspects of plant growth and development. It influences processes such as breaking seed and bud dormancy, initiating germination, promoting internode/petiole elongation, enhancing root growth, and inducing flowering and fruit-set. Ethylene's effects are particularly notable in deep water rice plants, where it helps keep the leaves and upper parts of the shoot above water, and in promoting root hair formation to increase the plant's absorption surface.",
+      "Question": "What is the role of ethylene in breaking seed and bud dormancy?",
+      "Answer": "Ethylene breaks seed and bud dormancy, which means it helps seeds and buds to start growing after a period of inactivity.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.35,
+      "Prerequisites": "Plant Growth and Regulators",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Types of Muscles and Their Functions",
+      "Explanation": "Muscles in the human body are categorized into different types based on their structure, function, and control mechanism. Striated muscles, also known as skeletal muscles, have a striped appearance under the microscope and are under voluntary control of the nervous system. They are involved in movements and posture changes. Visceral muscles, on the other hand, are found in the walls of hollow organs like the alimentary canal and reproductive tract. These muscles are not under voluntary control and are responsible for involuntary movements.",
+      "Question": "What are striated muscles also known as, and what is their primary function?",
+      "Answer": "Striated muscles are also known as skeletal muscles. Their primary function is to facilitate locomotory actions and changes in body postures.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.35,
+      "Prerequisites": "Muscle Structure and Function",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    }
+  ],
+  "questions_with_answers": [
+    {
+      "question_id": "0",
+      "question": "What are the two specific types of animals mentioned in the text?",
+      "options": null,
+      "user_answer": "Rabbits and Hamsters",
+      "correct_answer": "Dogs and Cats",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "1",
+      "question": "What is the first cell from which all other cells of a plant originate?",
+      "options": null,
+      "user_answer": "The root cell",
+      "correct_answer": "The zygote.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "2",
+      "question": "What is the process called that produces haploid daughter cells?",
+      "options": null,
+      "user_answer": "Mitosis",
+      "correct_answer": "Meiosis",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "3",
+      "question": "What is the role of ethylene in breaking seed and bud dormancy?",
+      "options": null,
+      "user_answer": "Ethylene inhibits seed and bud dormancy, preventing premature germination.",
+      "correct_answer": "Ethylene breaks seed and bud dormancy, which means it helps seeds and buds to start growing after a period of inactivity.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "4",
+      "question": "What are striated muscles also known as, and what is their primary function?",
+      "options": null,
+      "user_answer": "Smooth muscles; regulating digestion.",
+      "correct_answer": "Striated muscles are also known as skeletal muscles. Their primary function is to facilitate locomotory actions and changes in body postures.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    }
+  ],
+  "score": 0.0,
+  "correct": 0,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "11",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-08 00:10:43"
+}

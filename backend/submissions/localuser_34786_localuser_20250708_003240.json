@@ -1,0 +1,156 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_34786",
+  "answers": {
+    "0": "Partial pressures of oxygen and carbon dioxide are known as atmospheric pressures.",
+    "1": "A, B, AB, O",
+    "2": "Kidneys, ureters, cloaca, and urinary bladder",
+    "3": "Choanocytes are nerve cells in worms (phylum Platyhelminthes) that transmit signals. They possess pseudopodia.",
+    "4": "Algae, Fungi, Animals, Bacteria, Viruses"
+  },
+  "questions": [
+    {
+      "question": "What are the partial pressures of oxygen and carbon dioxide called?",
+      "options": [
+        "Partial pressures of oxygen and carbon dioxide are known as atmospheric pressures.",
+        "pO2 and pCO2 are the standard units for measuring gas concentrations.",
+        "pO2 and pCO2 are the commonly accepted abbreviations for partial pressures of oxygen and carbon dioxide.",
+        "Partial pressures of oxygen and carbon dioxide are referred to as alveolar partial pressures."
+      ],
+      "answer_index": 2,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What are the four main blood types in the ABO blood grouping system?",
+      "options": [
+        "AA, BB, CC, DD",
+        "A, B, AB, O",
+        "Rh-positive, Rh-negative, Type 1, Type 2",
+        "Type Alpha, Type Beta, Type Gamma, Type Delta"
+      ],
+      "answer_index": 1,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What are the main components of the excretory system in frogs?",
+      "options": [
+        "Liver, pancreas, intestines, and stomach",
+        "Lungs, skin, sweat glands, and salivary glands",
+        "Kidneys, ureters, cloaca, and urinary bladder",
+        "Brain, spinal cord, heart, and lungs"
+      ],
+      "answer_index": 2,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What are choanocytes, and which phylum do they belong to?",
+      "options": [
+        "Choanocytes are muscle cells found in jellyfish (phylum Cnidaria) responsible for locomotion. They lack a collar.",
+        "Choanocytes are pigment-containing cells in algae (phylum Protista) that aid in photosynthesis. They have cilia.",
+        "Choanocytes are collar cells in sponges (phylum Porifera) that create skeletal structures. They are non-motile.",
+        "Choanocytes are nerve cells in worms (phylum Platyhelminthes) that transmit signals. They possess pseudopodia."
+      ],
+      "answer_index": 0,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What are the five major groups discussed under the kingdom Plantae in this chapter?",
+      "options": [
+        "Bacteria, Archaea, Protista, Fungi, Plantae",
+        "Bryophytes, Gymnosperms, Angiosperms, Ferns, Mosses",
+        "Algae, Fungi, Animals, Bacteria, Viruses",
+        "Bryophytes, Pteridophytes, Gymnosperms, Angiosperms, Fungi"
+      ],
+      "answer_index": 0,
+      "difficulty": "Easy"
+    }
+  ],
+  "questions_with_answers": [
+    {
+      "question_id": "0",
+      "question": "What are the partial pressures of oxygen and carbon dioxide called?",
+      "options": [
+        "Partial pressures of oxygen and carbon dioxide are known as atmospheric pressures.",
+        "pO2 and pCO2 are the standard units for measuring gas concentrations.",
+        "pO2 and pCO2 are the commonly accepted abbreviations for partial pressures of oxygen and carbon dioxide.",
+        "Partial pressures of oxygen and carbon dioxide are referred to as alveolar partial pressures."
+      ],
+      "user_answer": "Partial pressures of oxygen and carbon dioxide are known as atmospheric pressures.",
+      "correct_answer": "pO2 and pCO2 are the commonly accepted abbreviations for partial pressures of oxygen and carbon dioxide.",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1",
+      "question": "What are the four main blood types in the ABO blood grouping system?",
+      "options": [
+        "AA, BB, CC, DD",
+        "A, B, AB, O",
+        "Rh-positive, Rh-negative, Type 1, Type 2",
+        "Type Alpha, Type Beta, Type Gamma, Type Delta"
+      ],
+      "user_answer": "A, B, AB, O",
+      "correct_answer": "A, B, AB, O",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "2",
+      "question": "What are the main components of the excretory system in frogs?",
+      "options": [
+        "Liver, pancreas, intestines, and stomach",
+        "Lungs, skin, sweat glands, and salivary glands",
+        "Kidneys, ureters, cloaca, and urinary bladder",
+        "Brain, spinal cord, heart, and lungs"
+      ],
+      "user_answer": "Kidneys, ureters, cloaca, and urinary bladder",
+      "correct_answer": "Kidneys, ureters, cloaca, and urinary bladder",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "3",
+      "question": "What are choanocytes, and which phylum do they belong to?",
+      "options": [
+        "Choanocytes are muscle cells found in jellyfish (phylum Cnidaria) responsible for locomotion. They lack a collar.",
+        "Choanocytes are pigment-containing cells in algae (phylum Protista) that aid in photosynthesis. They have cilia.",
+        "Choanocytes are collar cells in sponges (phylum Porifera) that create skeletal structures. They are non-motile.",
+        "Choanocytes are nerve cells in worms (phylum Platyhelminthes) that transmit signals. They possess pseudopodia."
+      ],
+      "user_answer": "Choanocytes are nerve cells in worms (phylum Platyhelminthes) that transmit signals. They possess pseudopodia.",
+      "correct_answer": "Choanocytes are muscle cells found in jellyfish (phylum Cnidaria) responsible for locomotion. They lack a collar.",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "4",
+      "question": "What are the five major groups discussed under the kingdom Plantae in this chapter?",
+      "options": [
+        "Bacteria, Archaea, Protista, Fungi, Plantae",
+        "Bryophytes, Gymnosperms, Angiosperms, Ferns, Mosses",
+        "Algae, Fungi, Animals, Bacteria, Viruses",
+        "Bryophytes, Pteridophytes, Gymnosperms, Angiosperms, Fungi"
+      ],
+      "user_answer": "Algae, Fungi, Animals, Bacteria, Viruses",
+      "correct_answer": "Bacteria, Archaea, Protista, Fungi, Plantae",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    }
+  ],
+  "score": 0.4,
+  "correct": 2,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "11",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-08 00:32:40"
+}

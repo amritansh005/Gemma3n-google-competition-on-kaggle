@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import Literal, List, Dict, Any
+from typing import Literal, List, Dict, Any, Optional
 import sqlite3
 import os
 import random
@@ -40,6 +40,7 @@ class AnswerSubmission(BaseModel):
     user_id: str
     exam_id: str
     answers: dict  # {question_id: answer}
+    questions: Optional[list] = None  # MCQ-enriched questions (optional)
 
 class FeedbackRequest(BaseModel):
     user_id: str
@@ -193,21 +194,87 @@ def generate_mcqs(req: MCQQuestionsRequest):
 
 @app.post("/submit_answers")
 def submit_answers(sub: AnswerSubmission):
+    import json
+    from datetime import datetime
+
     exam = exams.get(sub.exam_id)
     if not exam or exam["user_id"] != sub.user_id:
         raise HTTPException(status_code=404, detail="Exam not found for user.")
     exam["answers"] = sub.answers
+
+    # --- Use MCQ-enriched questions if provided ---
+    # Accepts: { ... "questions": [...] } in the POST body
+    import inspect
+    # Try to get MCQ-enriched questions from the request body
+    from fastapi import Request
+    import sys
+    # If using FastAPI v0.95+, you can use sub.dict().get("questions")
+    mcq_questions = getattr(sub, "questions", None)
+    if mcq_questions is None and hasattr(sub, "__dict__"):
+        mcq_questions = sub.__dict__.get("questions")
+    if mcq_questions and isinstance(mcq_questions, list):
+        exam["questions"] = mcq_questions
+
     # Auto-evaluate (assume 'answer' column in DB)
     correct = 0
     total = len(exam["questions"])
-    for q in exam["questions"]:
-        qid = str(q.get("id") or q.get("question_id") or q.get("QID") or q.get("qid") or q.get("index") or "")
+    for idx, q in enumerate(exam["questions"]):
+        qid = str(q.get("id") or q.get("question_id") or q.get("QID") or q.get("qid") or q.get("index") or idx)
         user_ans = sub.answers.get(qid)
-        correct_ans = str(q.get("answer") or q.get("Answer") or q.get("correct_answer") or "")
+        # Use MCQ correct option if available, else fallback to DB answer
+        options = q.get("options")
+        answer_index = q.get("answer_index")
+        if options and answer_index is not None and 0 <= answer_index < len(options):
+            correct_ans = str(options[answer_index])
+        else:
+            correct_ans = str(q.get("answer") or q.get("Answer") or q.get("correct_answer") or "")
         if user_ans is not None and user_ans.strip().lower() == correct_ans.strip().lower():
             correct += 1
     score = correct / total if total else 0
     exam["score"] = score
+
+    # --- Save submission to file ---
+    # Build a detailed questions_with_answers array for robust review
+    questions_with_answers = []
+    for idx, q in enumerate(exam["questions"]):
+        qid = str(q.get("id") or q.get("question_id") or q.get("QID") or q.get("qid") or q.get("index") or idx)
+        user_ans = sub.answers.get(qid, "")
+        options = q.get("options")
+        answer_index = q.get("answer_index")
+        if options and answer_index is not None and 0 <= answer_index < len(options):
+            correct_ans = str(options[answer_index])
+        else:
+            correct_ans = str(q.get("answer") or q.get("Answer") or q.get("correct_answer") or "")
+        questions_with_answers.append({
+            "question_id": qid,
+            "question": q.get("question") or q.get("Question") or "",
+            "options": options if options else None,
+            "user_answer": user_ans,
+            "correct_answer": correct_ans,
+            "subject": q.get("subject", ""),
+            "topic": q.get("topic", ""),
+            "difficulty": q.get("difficulty", "")
+        })
+
+    submission_data = {
+        "user_id": sub.user_id,
+        "exam_id": sub.exam_id,
+        "answers": sub.answers,
+        "questions": exam["questions"],
+        "questions_with_answers": questions_with_answers,
+        "score": score,
+        "correct": correct,
+        "total": total,
+        "filters": exam.get("filters", {}),
+        "submitted_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    }
+    submissions_dir = os.path.join(os.path.dirname(__file__), "submissions")
+    os.makedirs(submissions_dir, exist_ok=True)
+    filename = f"{sub.exam_id}_{sub.user_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    filepath = os.path.join(submissions_dir, filename)
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(submission_data, f, ensure_ascii=False, indent=2)
+
     return {"score": score, "correct": correct, "total": total}
 
 @app.post("/feedback")
@@ -229,6 +296,81 @@ def feedback(req: FeedbackRequest):
     else:
         fb = "Don't give up! Try easier questions or review the material."
     return {"feedback": fb}
+
+@app.get("/user_submissions/{user_id}")
+def list_user_submissions(user_id: str):
+    """
+    List all submission files for a given user_id.
+    Returns a list of submission metadata (filename, exam_id, submitted_at, score, subject info, etc.).
+    """
+    import json
+
+    submissions_dir = os.path.join(os.path.dirname(__file__), "submissions")
+    if not os.path.exists(submissions_dir):
+        return []
+    files = [f for f in os.listdir(submissions_dir) if f.endswith(".json") and user_id in f]
+    submissions = []
+    for fname in sorted(files, reverse=True):
+        fpath = os.path.join(submissions_dir, fname)
+        try:
+            with open(fpath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                # Only include minimal info for listing
+                submissions.append({
+                    "filename": fname,
+                    "exam_id": data.get("exam_id"),
+                    "submitted_at": data.get("submitted_at"),
+                    "score": data.get("score"),
+                    "filters": data.get("filters"),
+                    "total": data.get("total"),
+                    "correct": data.get("correct"),
+                })
+        except Exception as e:
+            continue
+    return submissions
+
+@app.get("/submission/{filename}")
+def get_submission(filename: str):
+    """
+    Fetch a formatted review of a specific submission file.
+    Returns: {
+        "submitted_at": ...,
+        "score": ...,
+        "correct": ...,
+        "total": ...,
+        "filters": ...,
+        "questions_with_answers": [
+            {
+                "question_id": ...,
+                "question": ...,
+                "options": ...,
+                "user_answer": ...,
+                "correct_answer": ...,
+                "subject": ...,
+                "topic": ...,
+                "difficulty": ...
+            },
+            ...
+        ]
+    }
+    """
+    import json
+
+    submissions_dir = os.path.join(os.path.dirname(__file__), "submissions")
+    fpath = os.path.join(submissions_dir, filename)
+    if not os.path.exists(fpath):
+        raise HTTPException(status_code=404, detail="Submission file not found.")
+    with open(fpath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    # Only return the review-relevant fields
+    return {
+        "submitted_at": data.get("submitted_at"),
+        "score": data.get("score"),
+        "correct": data.get("correct"),
+        "total": data.get("total"),
+        "filters": data.get("filters"),
+        "questions_with_answers": data.get("questions_with_answers", [])
+    }
 
 @app.get("/exam/{exam_id}")
 def get_exam(exam_id: str):

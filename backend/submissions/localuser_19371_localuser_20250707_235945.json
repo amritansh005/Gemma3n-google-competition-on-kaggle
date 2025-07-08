@@ -1,0 +1,146 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_19371",
+  "answers": {
+    "0": "Cube, Sphere, Pyramid, Cone",
+    "1": "Melatonin",
+    "2": "Primary, tertiary, quaternary, and ribosomal",
+    "3": "Growth factor",
+    "4": "Homeostasis, inheritance, evolution, cellular structure, energy processing, growth, and response."
+  },
+  "questions": [
+    {
+      "Topic": "Classification of Bacteria Based on Shape",
+      "Explanation": "Bacteria are classified into four main categories based on their shapes. These categories are: 1. Coccus (pl.: cocci): Spherical or round-shaped bacteria. 2. Bacillus (pl.: bacilli): Rod-shaped bacteria. 3. Vibrium (pl.: vibrio): Comma-shaped bacteria. 4. Spirillum (pl.: spirilla): Spiral-shaped bacteria.",
+      "Question": "What are the four main shapes of bacteria?",
+      "Answer": "The four main shapes of bacteria are Coccus, Bacillus, Vibrium, and Spirillum.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.225,
+      "Prerequisites": "Introduction to Living World and Taxonomy, Taxonomic Hierarchy and Classification",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Hormones and their Functions",
+      "Explanation": "Hormones are chemical messengers produced by endocrine glands that regulate various physiological processes in the body. Different hormones have specific functions, such as regulating growth, metabolism, and reproduction. For example, prolactin regulates the growth of mammary glands and milk production, TSH stimulates thyroid hormone synthesis, ACTH stimulates glucocorticoid production, and LH and FSH regulate gonadal activity.",
+      "Question": "What hormone stimulates the synthesis and secretion of thyroid hormones?",
+      "Answer": "Thyroid-stimulating hormone (TSH)",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.3,
+      "Prerequisites": "Endocrine System and Hormones",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Protein Structure",
+      "Explanation": "Proteins are large, complex molecules that play many critical roles in the body. They do most of the work in cells and are required for the structure, function, and regulation of the body's tissues and organs. Proteins are made up of amino acids arranged in a linear chain joined together by peptide bonds, forming the primary structure. This chain can fold into various shapes, such as alpha helices or beta sheets, creating the secondary structure. The long protein chain can further fold upon itself, forming a complex 3-dimensional shape known as the tertiary structure. This tertiary structure is crucial for the biological activities of proteins. Additionally, some proteins consist of multiple polypeptide chains, forming a quaternary structure.",
+      "Question": "What are the four levels of protein structure?",
+      "Answer": "The four levels of protein structure are primary, secondary, tertiary, and quaternary.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.225,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Growth Rates in Organisms",
+      "Explanation": "Growth rate refers to the increase in size or number of cells of an organism over a period of time. It can be mathematically expressed and occurs in different ways, such as arithmetic or geometric growth. Arithmetic growth involves a constant rate of increase, while geometric growth involves an exponential increase. These concepts are crucial for understanding the development and reproduction of cells and tissues in organisms.",
+      "Question": "What is the term used to describe the increased growth per unit time?",
+      "Answer": "The term used to describe the increased growth per unit time is \"growth rate.\"",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "Conceptual",
+      "QuestionComplexity": 0.348076923,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    },
+    {
+      "Topic": "Characteristics of Living Organisms",
+      "Explanation": "Living organisms exhibit certain key characteristics that distinguish them from non-living things. These characteristics include growth, reproduction, metabolism, response to stimuli, adaptation, and organization. Understanding these characteristics helps in identifying and studying various life forms.",
+      "Question": "What are the seven key characteristics of living organisms?",
+      "Answer": "The seven key characteristics of living organisms are growth, reproduction, metabolism, response to stimuli, adaptation, organization, and movement.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.25,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "11"
+    }
+  ],
+  "questions_with_answers": [
+    {
+      "question_id": "",
+      "question": "What are the four main shapes of bacteria?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "The four main shapes of bacteria are Coccus, Bacillus, Vibrium, and Spirillum.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "What hormone stimulates the synthesis and secretion of thyroid hormones?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "Thyroid-stimulating hormone (TSH)",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "What are the four levels of protein structure?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "The four levels of protein structure are primary, secondary, tertiary, and quaternary.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "What is the term used to describe the increased growth per unit time?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "The term used to describe the increased growth per unit time is \"growth rate.\"",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "",
+      "question": "What are the seven key characteristics of living organisms?",
+      "options": null,
+      "user_answer": "",
+      "correct_answer": "The seven key characteristics of living organisms are growth, reproduction, metabolism, response to stimuli, adaptation, organization, and movement.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    }
+  ],
+  "score": 0.0,
+  "correct": 0,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "11",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-07 23:59:45"
+}

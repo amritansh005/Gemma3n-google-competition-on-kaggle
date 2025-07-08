@@ -1783,3 +1783,1428 @@ RESPONSE:
 }
 ```
 ========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the primary energy currency of the cell?
+Correct Answer: Adenosine Triphosphate (ATP)
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Deoxyribonucleic Acid (DNA)",
+    "Glucose",
+    "Adenosine Triphosphate (ATP)",
+    "Lipids"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Who conducted the experiment that showed sunlight is essential for the plant process that produces oxygen?
+Correct Answer: Jan Ingenhousz
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Joseph Priestley",
+    "Charles Darwin",
+    "Gregor Mendel",
+    "Antoine Lavoisier"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the primary mode of nutrition for fungi?
+Correct Answer: Fungi are heterotrophic organisms, meaning they obtain their nutrition from organic matter.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Photosynthesis using chlorophyll",
+    "Absorption of sunlight for energy",
+    "Decomposition of organic matter",
+    "Production of their own food through chemosynthesis"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Identify the type of chromosome where the centromere is located exactly in the middle.
+Correct Answer: Metacentric
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Telocentric",
+    "Pericentric",
+    "Metacentric",
+    "Submetacentric"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two main types of proteins found in the plasma membrane according to the fluid mosaic model?
+Correct Answer: The two main types of proteins found in the plasma membrane are peripheral proteins and integral proteins.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Collagen and keratin",
+    "Enzymes and carbohydrates",
+    "Integral proteins and carbohydrates",
+    "Peripheral proteins and glycoproteins"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the family name for the plants Solanum, Petunia, and Datura?
+Correct Answer: Solanaceae
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Asteraceae",
+    "Solanaceae",
+    "Liliaceae",
+    "Brassicaceae"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the main characteristics used in the earliest systems of classification?
+Correct Answer: The earliest systems of classification used gross superficial morphological characters such as habit, color, number, and shape of leaves.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Genetic makeup and evolutionary relationships",
+    "Physiological functions and biochemical pathways",
+    "Gross superficial morphological characters such as habit, color, number, and shape of leaves",
+    "Geographical location and climate conditions"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two main types of biomolecules based on their molecular weights?
+Correct Answer: The two main types of biomolecules based on their molecular weights are micromolecules (or biomolecules) and macromolecules (or biomacromolecules).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Carbohydrates and lipids",
+    "Proteins and nucleic acids",
+    "Micromolecules and macromolecules",
+    "Amino acids and nucleotides"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the name of the cell that undergoes meiosis to form megaspores?
+Correct Answer: The megaspore mother cell.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The microspore mother cell",
+    "The pollen mother cell",
+    "The diploid germ cell",
+    "The megaspore mother cell"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Who discovered the triple helical structure of collagen?
+Correct Answer: G.N. Ramachandran
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Robert Brook",
+    "James D. Ellis",
+    "G.N. Ramachandran",
+    "Sydney Brenner"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the process called where energy is released by combining oxygen with food molecules?
+Correct Answer: Oxidation
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Reduction",
+    "Photosynthesis",
+    "Oxidation",
+    "Fermentation"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two membranes that make up the structure of a mitochondrion?
+Correct Answer: The two membranes that make up the structure of a mitochondrion are the outer membrane and the inner membrane.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The endoplasmic reticulum and Golgi apparatus",
+    "The nuclear envelope and cell membrane",
+    "The outer membrane and the inner membrane",
+    "The plasma membrane and the lysosome membrane"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two types of hormones produced by the hypothalamus?
+Correct Answer: The two types of hormones produced by the hypothalamus are releasing hormones and inhibiting hormones.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Steroid hormones and peptide hormones",
+    "Glucocorticoids and mineralocorticoids",
+    "Releasing hormones and inhibiting hormones",
+    "Antidiuretic hormone and oxytocin"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the process called when an electrical signal travels down the axon of a neuron?
+Correct Answer: The process is called impulse conduction or action potential propagation.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Synaptic transmission",
+    "Neurotransmitter release",
+    "Impulse conduction or action potential propagation",
+    "Myelin sheath formation"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the main components of the cell membrane?
+Correct Answer: The main components of the cell membrane are phospholipids, proteins, and cholesterol.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Carbohydrates, nucleic acids, and lipids",
+    "DNA, RNA, and ribosomes",
+    "Phospholipids, proteins, and cholesterol",
+    "Glycoproteins, enzymes, and carbohydrates"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Describe the major advantage of producing plants by micropropagation.
+Correct Answer: The major advantage of producing plants by micropropagation is the rapid and large-scale production of genetically identical plants. This method ensures uniformity and can be used to propagate rare or endangered species efficiently.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. Rapid and large-scale production of genetically identical plants.",
+    "B. Enhanced disease resistance in offspring due to genetic diversity.",
+    "C. Reduced cost of labor compared to traditional breeding methods.",
+    "D. Improved adaptability to varying environmental conditions."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two types of cells in which mutations can occur?
+Correct Answer: The two types of cells in which mutations can occur are somatic cells and germ cells.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. Somatic cells and gametes",
+    "B. Neuron cells and muscle cells",
+    "C. Liver cells and kidney cells",
+    "D. Somatic cells and germ cells"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the primary goal of the Human Genome Project?
+Correct Answer: The primary goal of the Human Genome Project is to determine the complete sequence of nucleotide base pairs that make up human DNA and identify and map all of the genes of the human genome.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "To develop new gene therapies for specific diseases.",
+    "To create a comprehensive database of human genetic variations.",
+    "To map the evolutionary history of all living organisms.",
+    "To determine the complete sequence of nucleotide base pairs in human DNA and identify all human genes."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Who were Watson and Crick, and what was their significant contribution to molecular genetics?
+Correct Answer: Watson and Crick were scientists who discovered the double-helix structure of DNA in 1953. Their work provided the foundation for understanding how genetic information is stored and replicated.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Watson and Crick were renowned physicists who developed the theory of relativity, while their work in genetics focused on protein folding.",
+    "Watson and Crick were chemists who synthesized penicillin, and their contribution to molecular genetics involved creating new antibiotics.",
+    "Watson and Crick were biologists who identified the function of mitochondria, and their work in genetics centered on cellular respiration.",
+    "Watson and Crick were geneticists who elucidated the double-helix structure of DNA in 1953, laying the groundwork for understanding genetic information storage and replication."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the role of tRNA in protein synthesis?
+Correct Answer: tRNA acts as an adapter molecule that reads the genetic code from mRNA and brings the corresponding amino acids to the ribosome to form proteins.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "mRNA carries the amino acid sequence to the ribosome.",
+    "tRNA provides the structural framework for the ribosome.",
+    "tRNA acts as an adapter molecule, translating mRNA codons into specific amino acids.",
+    "DNA directly participates in the formation of peptide bonds between amino acids."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the full form of HIV?
+Correct Answer: Human Immuno-deficiency Virus
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Hereditary Immune Vulnerability",
+    "Highly Infectious Virus",
+    "Human Immune Virus",
+    "Human Immunodeficiency Virus"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the three steps of transcription in bacteria?
+Correct Answer: The three steps of transcription in bacteria are initiation, elongation, and termination.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "1. Replication, 2. Translation, 3. Mutation",
+    "1. Prometilation, 2. RNA Polymerase binding, 3. DNA unwinding",
+    "1. Initiation, 2. Elongation, 3. Termination",
+    "1. Splicing, 2. Methylation, 3. Phosphorylation"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the scientific name of the yeast commonly used in the production of fermented beverages and bread-making?
+Correct Answer: Saccharomyces cerevisiae
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Escherichia coli",
+    "Saccharomyces cerevisiae",
+    "Bacillus subtilis",
+    "Streptococcus pneumoniae"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the process called where traits are passed from parents to offspring?
+Correct Answer: The process is called heredity.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Mutation",
+    "Evolution",
+    "Heredity",
+    "Adaptation"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the estimated age of the oldest viable seed of Lupinus arcticus found in the Arctic Tundra?
+Correct Answer: The estimated age of the oldest viable seed of Lupinus arcticus is 10,000 years.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "5,000 years",
+    "2,000 years",
+    "10,000 years",
+    "500 years"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the term used to describe the rapid increase in population size when resources are unlimited?
+Correct Answer: Exponential growth
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Linear growth",
+    "Logistic growth",
+    "Geometric progression",
+    "Polynomial expansion"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Recall the relationship between biodiversity and ecosystem stability as proposed by ecologists.
+Correct Answer: Ecologists have proposed that communities with more species tend to be more stable than those with fewer species.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Increased biodiversity always leads to ecosystem instability due to increased competition.",
+    "Ecosystem stability is solely dependent on the abundance of a single keystone species.",
+    "Biodiversity and ecosystem stability are unrelated; ecosystem stability is primarily determined by climate.",
+    "Ecologists generally believe that greater species diversity enhances ecosystem resilience and stability."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Is the menstrual cycle affected during pregnancy? (True/False)
+Correct Answer: True. The menstrual cycle ceases during pregnancy due to the hormonal changes that support the growth and development of the fetus.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "False. The menstrual cycle continues normally throughout pregnancy.",
+    "True. The menstrual cycle becomes more frequent during pregnancy.",
+    "False. Hormonal changes during pregnancy have no effect on the menstrual cycle.",
+    "True. The menstrual cycle is amplified during early pregnancy."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are ectoparasites, and can you name two common examples?
+Correct Answer: Ectoparasites are parasites that live on the external surface of the host organism. Two common examples are lice on humans and ticks on dogs.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Organisms that live inside the host's body, such as tapeworms and flukes.",
+    "Parasites that reside within the host's tissues, causing internal damage.",
+    "Organisms that live on the external surface of the host, like lice and ticks.",
+    "Microscopic organisms that cause diseases like bacteria and viruses."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the term used to describe the rate at which a population increases when resources are unlimited?
+Correct Answer: The term used to describe the rate at which a population increases when resources are unlimited is the intrinsic rate of increase (r).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Carrying capacity",
+    "Exponential growth",
+    "Logistic growth",
+    "Environmental resistance"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the four main shapes of bacteria?
+Correct Answer: The four main shapes of bacteria are Coccus, Bacillus, Vibrium, and Spirillum.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Cube, Sphere, Pyramid, Cone",
+    "Circle, Square, Triangle, Pentagon",
+    "Coccus, Bacillus, Vibrium, Spirillum",
+    "Hexagon, Octagon, Decagon, Dodecagon"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What hormone stimulates the synthesis and secretion of thyroid hormones?
+Correct Answer: Thyroid-stimulating hormone (TSH)
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Melatonin",
+    "Insulin",
+    "Thyroid-stimulating hormone (TSH)",
+    "Adrenaline"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the four levels of protein structure?
+Correct Answer: The four levels of protein structure are primary, secondary, tertiary, and quaternary.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Primary, tertiary, quaternary, and ribosomal",
+    "Secondary, primary, quaternary, and tertiary",
+    "Quaternary, secondary, primary, and tertiary",
+    "Primary, secondary, tertiary, and tertiary"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the term used to describe the increased growth per unit time?
+Correct Answer: The term used to describe the increased growth per unit time is "growth rate."
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Growth factor",
+    "Growth potential",
+    "Growth rate",
+    "Growth volume"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the seven key characteristics of living organisms?
+Correct Answer: The seven key characteristics of living organisms are growth, reproduction, metabolism, response to stimuli, adaptation, organization, and movement.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Homeostasis, inheritance, evolution, cellular structure, energy processing, growth, and response.",
+    "Photosynthesis, respiration, excretion, circulation, digestion, elimination, and development.",
+    "Communication, nutrition, respiration, excretion, movement, growth, and reproduction.",
+    "Structure, function, genetics, environment, behavior, development, and aging."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two main theories mentioned in the text for the disappearance of dinosaurs?
+Correct Answer: The two main theories mentioned are climatic changes and the evolution of dinosaurs into birds.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Asteroid impact and volcanic eruptions",
+    "Increased sea levels and tectonic plate shifts",
+    "Climatic changes and the evolution of dinosaurs into birds",
+    "Disease outbreak and competition with mammals"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the term used to describe a group of individuals of the same species that live in the same geographical area and share resources?
+Correct Answer: The term used is "population."
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Community",
+    "Ecosystem",
+    "Population",
+    "Biodiversity"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the process called when a foreign DNA fragment is inserted into the coding sequence of an enzyme, leading to the disruption of the enzyme's synthesis?
+Correct Answer: The process is called insertional inactivation.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Gene amplification",
+    "Site-directed mutagenesis",
+    "Insertional inactivation",
+    "Codon shuffling"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Who was Rene Descartes and what fields did he contribute to?
+Correct Answer: Rene Descartes was a French philosopher, mathematician, and biologist of the 17th century.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. Isaac Newton, a 17th-century English physicist and mathematician, known for his laws of motion and universal gravitation.",
+    "B. René Descartes was a 17th-century French philosopher, mathematician, and biologist, known for his contributions to rationalism and analytic geometry.",
+    "C. Leonardo da Vinci, an Italian Renaissance polymath, primarily known for his art and inventions.",
+    "D. Marie Curie, a Polish and naturalized-French physicist and chemist, famous for her pioneering research on radioactivity."
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the Chromosomal Theory of Inheritance?
+Correct Answer: The Chromosomal Theory of Inheritance is an extension of Mendel's laws that explains how genes are carried on chromosomes and how they segregate and assort during meiosis.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The theory that traits are determined solely by environmental factors.",
+    "A system of classifying organisms based on their physical characteristics.",
+    "The concept that genes are located on chromosomes and are passed from parents to offspring during cell division.",
+    "A process where DNA is replicated to create identical copies."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the phylum name for segmented worms, and what does the name mean in Latin?
+Correct Answer: The phylum name for segmented worms is Annelida, which means "little ring" in Latin.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Arthropoda, meaning 'jointed foot'",
+    "Nematoda, meaning 'thread-like'",
+    "Annelida, meaning 'little ring'",
+    "Platyhelminthes, meaning 'flat body'"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What type of vascular bundles are found in a monocotyledonous stem?
+Correct Answer: Conjoint vascular bundles.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Collateral vascular bundles",
+    "Scattered vascular bundles",
+    "Ring vascular bundles",
+    "Concentric vascular bundles"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are neurotransmitters, and where are they released?
+Correct Answer: Neurotransmitters are chemical messengers released into the synaptic cleft by the pre-synaptic neuron.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Proteins that build the neuron's structure, released within the neuron's cytoplasm.",
+    "Electrical signals transmitted along axons, released directly into the brain tissue.",
+    "Chemical messengers released into the synaptic cleft by the pre-synaptic neuron.",
+    "Hormones produced by the endocrine system, released into the bloodstream."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two main stages of photosynthesis?
+Correct Answer: The two main stages of photosynthesis are the light-dependent reactions and the light-independent reactions (Calvin cycle).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Glycolysis and Krebs Cycle",
+    "Light-dependent reactions and carbon fixation",
+    "Electron transport chain and ATP synthase",
+    "Photosystem I and Photosystem II"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Who was the earliest scientist to attempt a more scientific basis for the classification of living organisms?
+Correct Answer: Aristotle
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Charles Darwin",
+    "Aristotle",
+    "Marie Curie",
+    "Isaac Newton"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two specific types of animals mentioned in the text?
+Correct Answer: Dogs and Cats
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Rabbits and Hamsters",
+    "Birds and Fish",
+    "Dogs and Cats",
+    "Horses and Cows"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the first cell from which all other cells of a plant originate?
+Correct Answer: The zygote.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The root cell",
+    "The pollen grain",
+    "The zygote",
+    "The leaf cell"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the process called that produces haploid daughter cells?
+Correct Answer: Meiosis
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Mitosis",
+    "Fertilization",
+    "Meiosis",
+    "Translation"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the role of ethylene in breaking seed and bud dormancy?
+Correct Answer: Ethylene breaks seed and bud dormancy, which means it helps seeds and buds to start growing after a period of inactivity.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Ethylene inhibits seed and bud dormancy, preventing premature germination.",
+    "Ethylene promotes seed and bud dormancy, ensuring survival during unfavorable conditions.",
+    "Ethylene stimulates the production of abscisic acid, which maintains seed and bud dormancy.",
+    "Ethylene triggers a process that strengthens the seed coat and bud scales, prolonging dormancy."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are striated muscles also known as, and what is their primary function?
+Correct Answer: Striated muscles are also known as skeletal muscles. Their primary function is to facilitate locomotory actions and changes in body postures.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Smooth muscles; regulating digestion.",
+    "Cardiac muscles; controlling heart rate.",
+    "Skeletal muscles; facilitating movement and posture.",
+    "Visceral muscles; responsible for breathing."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two main types of agents that facilitate pollination?
+Correct Answer: The two main types of agents that facilitate pollination are biotic agents (such as animals) and abiotic agents (such as wind and water).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. Fungi and bacteria",
+    "B. Wind and sunlight",
+    "C. Animals and microorganisms",
+    "D. Wind and animals"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the expected F2 ratio when two genes are independent?
+Correct Answer: The expected F2 ratio when two genes are independent is 9:3:3:1.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "1:1:1:1",
+    "16:10:5:1",
+    "9:3:3:1",
+    "1:2:1"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are enzymes?
+Correct Answer: Enzymes are biological catalysts that speed up chemical reactions in living organisms.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Complex carbohydrates used for energy storage.",
+    "Large proteins that transport oxygen throughout the body.",
+    "Biological catalysts that accelerate chemical reactions.",
+    "Structural components of cell membranes."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Which enzyme is responsible for the transcription of mRNA?
+Correct Answer: RNA polymerase II
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "DNA ligase",
+    "RNA polymerase I",
+    "RNA polymerase III",
+    "RNA polymerase II"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the process called when sperm fertilizes an ovum to form a zygote?
+Correct Answer: Fertilization
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Gestation",
+    "Mitosis",
+    "Fertilization",
+    "Embryogenesis"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the XO type of sex determination?
+Correct Answer: The XO type of sex determination is a mechanism where all eggs carry an X-chromosome, and some sperms carry the X-chromosome while others do not. The presence or absence of the X-chromosome in the sperm determines the sex of the offspring.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "In XO sex determination, the Y chromosome determines maleness, and the absence of Y determines femaleness.",
+    "XO sex determination is characterized by the presence of two X chromosomes in all individuals, regardless of sex.",
+    "The XO sex determination system relies on the dosage of X-linked genes, with higher dosage resulting in a male phenotype.",
+    "In XO sex determination, all sperm contribute to female offspring, while all eggs contribute to male offspring."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the main gas produced during the fermentation of dough, cheese making, and beverage production?
+Correct Answer: The main gas produced during the fermentation of dough, cheese making, and beverage production is carbon dioxide (CO2).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Methane (CH4)",
+    "Oxygen (O2)",
+    "Nitrogen (N2)",
+    "Carbon Dioxide (CO2)"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the term used to describe the process where a single species diversifies into multiple species to fill different ecological niches?
+Correct Answer: The term is adaptive radiation.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Cladogenesis",
+    "Convergent Evolution",
+    "Speciation",
+    "Adaptive Radiation"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the scientific name of the yeast used in the fermentation process for making bread?
+Correct Answer: Saccharomyces cerevisiae
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Aspergillus niger",
+    "Saccharomyces cerevisiae",
+    "Escherichia coli",
+    "Bacillus subtilis"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the gene responsible for thalassemia?
+Correct Answer: The gene responsible for thalassemia is HBB on chromosome 11.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "HBB on chromosome 11",
+    "Globin chain gene on chromosome 1",
+    "ACTB on chromosome 21",
+    "SOD1 on chromosome 14"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: Who discovered restriction enzymes in the E. coli bacterium?
+Correct Answer: Herbert Boyer
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Stanley Cohen",
+    "Frederick Griffith",
+    "Herbert Boyer",
+    "Alexander Fleming"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is an invasive species?
+Correct Answer: An invasive species is a non-native organism introduced into an ecosystem where it is not typically found, often causing harm to the environment, economy, or human health.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. A species that is naturally occurring and beneficial to the ecosystem.",
+    "B. A species that has been introduced to a new environment and negatively impacts the local ecosystem.",
+    "C. A species that is only harmful to human health and has no effect on the environment.",
+    "D. A species that is native to the ecosystem but is currently experiencing a population decline."
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is recombinant DNA technology?
+Correct Answer: Recombinant DNA technology is the process of manipulating DNA sequences to create new combinations of genetic material.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A. A method for creating artificial viruses to combat diseases.",
+    "B. The process of copying entire organisms to produce identical duplicates.",
+    "C. A technique involving the insertion of foreign DNA into an organism's genome to alter its characteristics.",
+    "D. A method for extracting RNA from cells to study gene expression."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What does VNTR stand for in the context of DNA fingerprinting?
+Correct Answer: Variable Number of Tandem Repeats
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Volatile Nucleic Transfer Region",
+    "Versatile Nucleotide Transmission Routine",
+    "Variable Number of Tandem Repeats",
+    "Visual Nucleotide Tracking Record"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the definition of a community in ecology?
+Correct Answer: A community in ecology refers to all the populations of different species that live and interact in a specific area.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The study of individual organisms within a defined habitat.",
+    "A single species occupying a particular niche.",
+    "All the populations of different species living and interacting in a specific area.",
+    "The non-living components of an ecosystem, such as soil and water."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the partial pressures of oxygen and carbon dioxide called?
+Correct Answer: The partial pressures of oxygen and carbon dioxide are called pO2 and pCO2, respectively.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Partial pressures of oxygen and carbon dioxide are known as atmospheric pressures.",
+    "pO2 and pCO2 are the standard units for measuring gas concentrations.",
+    "pO2 and pCO2 are the commonly accepted abbreviations for partial pressures of oxygen and carbon dioxide.",
+    "Partial pressures of oxygen and carbon dioxide are referred to as alveolar partial pressures."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the four main blood types in the ABO blood grouping system?
+Correct Answer: The four main blood types in the ABO blood grouping system are A, B, AB, and O.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "AA, BB, CC, DD",
+    "A, B, AB, O",
+    "Rh-positive, Rh-negative, Type 1, Type 2",
+    "Type Alpha, Type Beta, Type Gamma, Type Delta"
+  ],
+  "answer_index": 1
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the main components of the excretory system in frogs?
+Correct Answer: The main components of the excretory system in frogs are the kidneys, ureters, cloaca, and urinary bladder.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Liver, pancreas, intestines, and stomach",
+    "Lungs, skin, sweat glands, and salivary glands",
+    "Kidneys, ureters, cloaca, and urinary bladder",
+    "Brain, spinal cord, heart, and lungs"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are choanocytes, and which phylum do they belong to?
+Correct Answer: Choanocytes are specialized cells found in sponges (phylum Porifera) that have a flagellum and collar used for filtering food particles from water.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Choanocytes are muscle cells found in jellyfish (phylum Cnidaria) responsible for locomotion. They lack a collar.",
+    "Choanocytes are pigment-containing cells in algae (phylum Protista) that aid in photosynthesis. They have cilia.",
+    "Choanocytes are collar cells in sponges (phylum Porifera) that create skeletal structures. They are non-motile.",
+    "Choanocytes are nerve cells in worms (phylum Platyhelminthes) that transmit signals. They possess pseudopodia."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the five major groups discussed under the kingdom Plantae in this chapter?
+Correct Answer: The five major groups discussed under the kingdom Plantae are Algae, Bryophytes, Pteridophytes, Gymnosperms, and Angiosperms.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Bacteria, Archaea, Protista, Fungi, Plantae",
+    "Bryophytes, Gymnosperms, Angiosperms, Ferns, Mosses",
+    "Algae, Fungi, Animals, Bacteria, Viruses",
+    "Bryophytes, Pteridophytes, Gymnosperms, Angiosperms, Fungi"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is a selectable marker in the context of recombinant DNA technology?
+Correct Answer: A selectable marker is a gene, such as the ampicillin resistance gene, that allows scientists to identify and select cells that have successfully taken up the recombinant DNA.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "A gene that codes for a protein involved in DNA replication.",
+    "A tool used to cut DNA at specific sequences.",
+    "A gene, such as the ampicillin resistance gene, that allows scientists to identify and select cells that have successfully taken up the recombinant DNA.",
+    "A method for amplifying DNA sequences."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the genetic makeup of an individual with sickle-cell anemia?
+Correct Answer: The genetic makeup of an individual with sickle-cell anemia is homozygous for the HbS gene (HbSHbS).
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Heterozygous for the HbS gene (HbAS)",
+    "Homozygous heterozygous for the HbA gene (HbAHbA)",
+    "Homozygous for the HbA gene (HbAHbA)",
+    "Carries a single copy of the HbS gene (HbAS)"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the term used to describe the trait that appears in the F1 generation when a tall plant is crossed with a dwarf plant?
+Correct Answer: The term used is "dominant trait."
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Recessive trait",
+    "Hybrid vigor",
+    "Dominant trait",
+    "Polygenic inheritance"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are mutagens?
+Correct Answer: Mutagens are chemical or physical factors that induce mutations.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Proteins that repair damaged DNA.",
+    "Viruses that cause infectious diseases.",
+    "Chemical or physical factors that induce mutations.",
+    "Hormones that regulate bodily functions."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two types of sex chromosomes in humans?
+Correct Answer: The two types of sex chromosomes in humans are X-chromosome and Y-chromosome.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "XX and YY",
+    "X and Y",
+    "AA and BB",
+    "XX and XY"
+  ],
+  "answer_index": 1
+}
+```
+========================================

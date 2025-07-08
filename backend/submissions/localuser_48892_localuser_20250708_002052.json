@@ -1,0 +1,146 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_48892",
+  "answers": {
+    "0": "In XO sex determination, the Y chromosome determines maleness, and the absence of Y determines femaleness.",
+    "1": "Oxygen (O2)",
+    "2": "Speciation",
+    "3": "Bacillus subtilis",
+    "4": "HBB on chromosome 11"
+  },
+  "questions": [
+    {
+      "Topic": "Sex Determination Mechanisms",
+      "Explanation": "Sex determination is the process by which an organism's biological sex is established. In many insects, the mechanism of sex determination is of the XO type. This means that all eggs carry an additional X-chromosome along with other chromosomes (autosomes). Some sperms carry the X-chromosome, while others do not. When an egg is fertilized by a sperm with an X-chromosome, the offspring becomes female. When an egg is fertilized by a sperm without an X-chromosome, the offspring becomes male.",
+      "Question": "What is the XO type of sex determination?",
+      "Answer": "The XO type of sex determination is a mechanism where all eggs carry an X-chromosome, and some sperms carry the X-chromosome while others do not. The presence or absence of the X-chromosome in the sperm determines the sex of the offspring.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.225,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Microbial Metabolism and Fermentation",
+      "Explanation": "Microbial metabolism involves the processes by which microorganisms obtain energy and nutrients from their environment. Fermentation is a type of microbial metabolism where organic substrates are broken down in the absence of oxygen, producing various gases and other by-products. In the examples of dough fermentation, cheese making, and beverage production, the main gas produced is carbon dioxide (CO2). However, certain bacteria called methanogens, which grow anaerobically on cellulosic material, produce methane (CH4) along with CO2 and hydrogen (H2). These bacteria are commonly found in anaerobic sludge.",
+      "Question": "What is the main gas produced during the fermentation of dough, cheese making, and beverage production?",
+      "Answer": "The main gas produced during the fermentation of dough, cheese making, and beverage production is carbon dioxide (CO2).",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.4234375,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Adaptive Radiation",
+      "Explanation": "Adaptive radiation is an evolutionary process where a single species diversifies into multiple species to fill different ecological niches. This often occurs in isolated geographical areas, allowing the species to evolve unique adaptations to their environment. Darwin's finches and Australian marsupials are classic examples of adaptive radiation.",
+      "Question": "What is the term used to describe the process where a single species diversifies into multiple species to fill different ecological niches?",
+      "Answer": "The term is adaptive radiation.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "Conceptual",
+      "QuestionComplexity": 0.571590909,
+      "Prerequisites": "Evolutionary Mechanisms",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Fermentation",
+      "Explanation": "Fermentation is a metabolic process in which an organism converts a carbohydrate, such as starch or a sugar, into an alcohol or an acid. Microorganisms like yeast and bacteria play a crucial role in fermentation. This process is used in the production of various foods and beverages, including bread, cheese, and traditional drinks like toddy.",
+      "Question": "What is the scientific name of the yeast used in the fermentation process for making bread?",
+      "Answer": "Saccharomyces cerevisiae",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.421875,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Genetic Disorders",
+      "Explanation": "Genetic disorders are conditions caused by abnormalities in an individual's DNA. These abnormalities can be due to mutations in specific genes or changes in the number or structure of chromosomes. Thalassemia and sickle-cell anemia are examples of genetic disorders. Thalassemia is caused by a mutation in the HBB gene on chromosome 11, leading to a deficiency in globin molecules. Sickle-cell anemia, on the other hand, results from a mutation that produces abnormally shaped red blood cells due to incorrectly functioning globin. Chromosomal disorders occur when there is an absence, excess, or abnormal arrangement of chromosomes.",
+      "Question": "What is the gene responsible for thalassemia?",
+      "Answer": "The gene responsible for thalassemia is HBB on chromosome 11.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.2,
+      "Prerequisites": "Genetic Disorders and Pedigree Analysis",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    }
+  ],
+  "questions_with_answers": [
+    {
+      "question_id": "0",
+      "question": "What is the XO type of sex determination?",
+      "options": null,
+      "user_answer": "In XO sex determination, the Y chromosome determines maleness, and the absence of Y determines femaleness.",
+      "correct_answer": "The XO type of sex determination is a mechanism where all eggs carry an X-chromosome, and some sperms carry the X-chromosome while others do not. The presence or absence of the X-chromosome in the sperm determines the sex of the offspring.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "1",
+      "question": "What is the main gas produced during the fermentation of dough, cheese making, and beverage production?",
+      "options": null,
+      "user_answer": "Oxygen (O2)",
+      "correct_answer": "The main gas produced during the fermentation of dough, cheese making, and beverage production is carbon dioxide (CO2).",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "2",
+      "question": "What is the term used to describe the process where a single species diversifies into multiple species to fill different ecological niches?",
+      "options": null,
+      "user_answer": "Speciation",
+      "correct_answer": "The term is adaptive radiation.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "3",
+      "question": "What is the scientific name of the yeast used in the fermentation process for making bread?",
+      "options": null,
+      "user_answer": "Bacillus subtilis",
+      "correct_answer": "Saccharomyces cerevisiae",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "4",
+      "question": "What is the gene responsible for thalassemia?",
+      "options": null,
+      "user_answer": "HBB on chromosome 11",
+      "correct_answer": "The gene responsible for thalassemia is HBB on chromosome 11.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    }
+  ],
+  "score": 0.0,
+  "correct": 0,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "12",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-08 00:20:52"
+}

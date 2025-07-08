@@ -76,16 +76,20 @@
     <li style="padding: 0 1.5rem 1.5rem 1.5rem;">
       <span class="brand-logo" style="font-size: 1.7rem;">EduSuite</span>
     </li>
-    <li class="active" style="padding: 0.5rem 1.5rem;">
+    <li class="active" id="tab-mcq" style="padding: 0.5rem 1.5rem; cursor:pointer;">
       <i class="material-icons left">assignment</i> MCQ Exam
+    </li>
+    <li id="tab-history" style="padding: 0.5rem 1.5rem; cursor:pointer;">
+      <i class="material-icons left">history</i> Previous Tests
     </li>
     <li style="padding: 0.5rem 1.5rem; color: #90a4ae;">
       <i class="material-icons left">more_horiz</i> More features coming soon
     </li>
   </ul>
   <div class="main-content">
-    <div class="feature-title">MCQ Exam Generator</div>
-    <div class="card" style="padding: 2rem;">
+    <div id="mcq-section">
+      <div class="feature-title">MCQ Exam Generator</div>
+      <div class="card" style="padding: 2rem;">
       <form id="examForm">
         <div class="row">
           <div class="input-field col s12 m4">
@@ -131,7 +135,18 @@
         <div id="scoreResult" class="score-result"></div>
       </div>
     </div>
+    <div id="history-section" style="display:none;">
+      <div class="feature-title">Previous Tests</div>
+      <div class="card" style="padding: 2rem;">
+        <div id="previous-tests-list"></div>
+        <div id="test-details" style="margin-top:1em;">
+          <canvas id="performance-graph" width="400" height="200" style="display:none;"></canvas>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- Chart.js CDN for graphs -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script>
     const backendUrl = "http://127.0.0.1:8000";
@@ -196,15 +211,27 @@
       const mcqForm = document.getElementById('mcqForm');
       mcqForm.innerHTML = "";
       mcqs.forEach((mcq, idx) => {
+        // Use backend question ID if available, else fallback to idx
+        // Also, store the qid on the block for debugging
+        const qid = String(
+          mcq.id ||
+          mcq.question_id ||
+          mcq.QID ||
+          mcq.qid ||
+          mcq.index ||
+          mcq.Qid ||
+          idx
+        );
         const block = document.createElement('div');
         block.className = "question-block";
+        block.setAttribute("data-qid", qid);
         block.innerHTML = `<div class="mcq-question">Q${idx+1}: ${mcq.question}</div><div class="mcq-options"></div>`;
         const optionsDiv = block.querySelector('.mcq-options');
         mcq.options.forEach((opt, optIdx) => {
-          const optId = `q${idx}_opt${optIdx}`;
+          const optId = `q${qid}_opt${optIdx}`;
           optionsDiv.innerHTML += `
             <label>
-              <input type="radio" name="q${idx}" value="${optIdx}" required/>
+              <input type="radio" name="q${qid}" value="${opt}" required/>
               <span>${String.fromCharCode(65+optIdx)}. ${opt}</span>
             </label>
           `;
@@ -221,9 +248,19 @@
       const answers = {};
       let allAnswered = true;
       mcqs.forEach((mcq, idx) => {
-        const selected = document.querySelector(`input[name="q${idx}"]:checked`);
+        // Use the same qid logic as in showMcqs
+        const qid = String(
+          mcq.id ||
+          mcq.question_id ||
+          mcq.QID ||
+          mcq.qid ||
+          mcq.index ||
+          mcq.Qid ||
+          idx
+        );
+        const selected = document.querySelector(`input[name="q${qid}"]:checked`);
         if (selected) {
-          answers[idx] = parseInt(selected.value, 10);
+          answers[qid] = selected.value;
         } else {
           allAnswered = false;
         }
@@ -232,14 +269,229 @@
         M.toast({html: "Please answer all questions.", classes: "red"});
         return;
       }
-      // Calculate score
+      // Calculate score (frontend, for instant feedback)
       let correct = 0;
       mcqs.forEach((mcq, idx) => {
-        if (answers[idx] === mcq.answer_index) correct++;
+        const qid = String(
+          mcq.id ||
+          mcq.question_id ||
+          mcq.QID ||
+          mcq.qid ||
+          mcq.index ||
+          mcq.Qid ||
+          idx
+        );
+        const userAns = answers[qid];
+        const correctAns = mcq.options[mcq.answer_index];
+        if (userAns && userAns.trim().toLowerCase() === correctAns.trim().toLowerCase()) correct++;
       });
       const score = `${correct} / ${mcqs.length}`;
       document.getElementById('scoreResult').innerText = "Your Score: " + score;
+
+      // --- Submit answers to backend for saving ---
+      if (!examId) {
+        M.toast({html: "Exam ID missing. Please regenerate the exam.", classes: "red"});
+        return;
+      }
+      try {
+        const res = await fetch(backendUrl + "/submit_answers", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            user_id: "localuser",
+            exam_id: examId,
+            answers: answers,
+            questions: mcqs // send MCQ-enriched questions for backend scoring/review
+          })
+        });
+        if (!res.ok) {
+          const errorText = await res.text();
+          M.toast({html: "Failed to save your test: " + errorText, classes: "red"});
+        }
+      } catch (err) {
+        M.toast({html: "Error saving your test.", classes: "red"});
+      }
     };
+    // --- Tab switching logic ---
+    const tabMcq = document.getElementById("tab-mcq");
+    const tabHistory = document.getElementById("tab-history");
+    const mcqSection = document.getElementById("mcq-section");
+    const historySection = document.getElementById("history-section");
+
+    function setActiveTab(tab) {
+      document.querySelectorAll(".side-nav-fixed li").forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+    }
+
+    tabMcq.addEventListener("click", () => {
+      setActiveTab(tabMcq);
+      mcqSection.style.display = "";
+      historySection.style.display = "none";
+    });
+
+    tabHistory.addEventListener("click", () => {
+      setActiveTab(tabHistory);
+      mcqSection.style.display = "none";
+      historySection.style.display = "";
+      fetchPreviousTests();
+    });
+
+    // --- Previous Tests logic ---
+    async function fetchPreviousTests() {
+      const listDiv = document.getElementById("previous-tests-list");
+      listDiv.innerHTML = "Loading...";
+      try {
+        const res = await fetch(`${backendUrl}/user_submissions/localuser`);
+        if (!res.ok) {
+          listDiv.innerHTML = "Failed to load previous tests.";
+          return;
+        }
+        const submissions = await res.json();
+        if (submissions.length === 0) {
+          listDiv.innerHTML = "No previous tests found.";
+          return;
+        }
+        // Render list
+        listDiv.innerHTML = "";
+        const ul = document.createElement("ul");
+        submissions.forEach((sub, idx) => {
+          const li = document.createElement("li");
+          li.style.cursor = "pointer";
+          li.textContent = `Test ${idx + 1}: ${sub.submitted_at} | Score: ${sub.correct}/${sub.total} | Subjects: ${getSubjectsString(sub.filters)}`;
+          li.onclick = () => fetchTestDetails(sub.filename);
+          ul.appendChild(li);
+        });
+        listDiv.appendChild(ul);
+      } catch (err) {
+        listDiv.innerHTML = "Error loading previous tests.";
+      }
+    }
+
+    function getSubjectsString(filters) {
+      if (!filters) return "";
+      if (Array.isArray(filters)) {
+        return filters.map(f => `${f.subject} (G${f.grade}, ${f.difficulty})`).join(", ");
+      }
+      // fallback for old format
+      return Object.values(filters).join(", ");
+    }
+
+    async function fetchTestDetails(filename) {
+      const detailsDiv = document.getElementById("test-details");
+      detailsDiv.innerHTML = "Loading test details...";
+      try {
+        const res = await fetch(`${backendUrl}/submission/${filename}`);
+        if (!res.ok) {
+          detailsDiv.innerHTML = "Failed to load test details.";
+          return;
+        }
+        const data = await res.json();
+        renderTestDetails(data, detailsDiv);
+      } catch (err) {
+        detailsDiv.innerHTML = "Error loading test details.";
+      }
+    }
+
+    function renderTestDetails(data, container) {
+      let html = `<h5>Test Details</h5>`;
+      html += `<b>Date:</b> ${data.submitted_at || ""}<br>`;
+      html += `<b>Score:</b> ${data.correct} / ${data.total} (${((data.score || 0) * 100).toFixed(1)}%)<br>`;
+      html += `<b>Subjects:</b> ${getSubjectsString(data.filters)}<br>`;
+      html += `<hr>`;
+      html += `<b>Questions & Answers:</b><br>`;
+      if (Array.isArray(data.questions_with_answers)) {
+        html += "<ol>";
+        data.questions_with_answers.forEach((qwa, idx) => {
+          html += `<li><b>${qwa.question || "Question"}</b><br>`;
+          html += `Your answer: <span style="color:${qwa.user_answer && qwa.user_answer.trim().toLowerCase() === qwa.correct_answer.trim().toLowerCase() ? 'green' : 'red'}">${qwa.user_answer || "(no answer)"}</span><br>`;
+          html += `Correct answer: <b>${qwa.correct_answer || ""}</b><br>`;
+          html += `<i>Subject: ${qwa.subject || ""}, Topic: ${qwa.topic || ""}, Difficulty: ${qwa.difficulty || ""}</i>`;
+          html += `</li>`;
+        });
+        html += "</ol>";
+      }
+      container.innerHTML = html;
+
+      // --- Performance Graphs ---
+      const perfGraph = document.getElementById("performance-graph");
+      if (!perfGraph) return;
+      // Compute subject-wise and topic-wise performance
+      // (Optional: you can use qwa.subject, qwa.user_answer, qwa.correct_answer for analytics)
+      // For now, hide the graph if not needed
+      perfGraph.style.display = "none";
+    }
+
+    function computePerformance(questions, answers) {
+      // Returns { subjects: {labels, correct, incorrect}, topics: {labels, correct, incorrect} }
+      const subjStats = {};
+      const topicStats = {};
+      questions.forEach((q, idx) => {
+        const qid = String(q.id || q.question_id || q.QID || q.qid || q.index || idx);
+        const userAns = answers && answers[qid] !== undefined ? answers[qid] : null;
+        const correctAns = q.answer || q.Answer || q.correct_answer || "";
+        const isCorrect = userAns !== null && String(userAns).trim().toLowerCase() === String(correctAns).trim().toLowerCase();
+        // Subject
+        const subj = q.subject || "Unknown";
+        if (!subjStats[subj]) subjStats[subj] = { correct: 0, incorrect: 0 };
+        if (isCorrect) subjStats[subj].correct += 1;
+        else subjStats[subj].incorrect += 1;
+        // Topic
+        const topic = q.topic || "Unknown";
+        if (!topicStats[topic]) topicStats[topic] = { correct: 0, incorrect: 0 };
+        if (isCorrect) topicStats[topic].correct += 1;
+        else topicStats[topic].incorrect += 1;
+      });
+      return {
+        subjects: {
+          labels: Object.keys(subjStats),
+          correct: Object.values(subjStats).map(s => s.correct),
+          incorrect: Object.values(subjStats).map(s => s.incorrect)
+        },
+        topics: {
+          labels: Object.keys(topicStats),
+          correct: Object.values(topicStats).map(s => s.correct),
+          incorrect: Object.values(topicStats).map(s => s.incorrect)
+        }
+      };
+    }
+
+    let chartInstance = null;
+    function renderBarChart(canvas, labels, correctData, incorrectData, title) {
+      if (chartInstance) {
+        chartInstance.destroy();
+      }
+      chartInstance = new Chart(canvas, {
+        type: "bar",
+        data: {
+          labels: labels,
+          datasets: [
+            {
+              label: "Correct",
+              data: correctData,
+              backgroundColor: "rgba(75, 192, 192, 0.7)"
+            },
+            {
+              label: "Incorrect",
+              data: incorrectData,
+              backgroundColor: "rgba(255, 99, 132, 0.7)"
+            }
+          ]
+        },
+        options: {
+          responsive: false,
+          plugins: {
+            title: {
+              display: true,
+              text: title
+            }
+          },
+          scales: {
+            x: { stacked: true },
+            y: { beginAtZero: true, stacked: true }
+          }
+        }
+      });
+    }
   </script>
 </body>
 </html>

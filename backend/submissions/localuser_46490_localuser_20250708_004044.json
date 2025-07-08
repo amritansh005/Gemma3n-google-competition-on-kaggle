@@ -1,0 +1,156 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_46490",
+  "answers": {
+    "0": "A gene that codes for a protein involved in DNA replication.",
+    "1": "Carries a single copy of the HbS gene (HbAS)",
+    "2": "Polygenic inheritance",
+    "3": "Chemical or physical factors that induce mutations.",
+    "4": "XX and YY"
+  },
+  "questions": [
+    {
+      "question": "What is a selectable marker in the context of recombinant DNA technology?",
+      "options": [
+        "A gene that codes for a protein involved in DNA replication.",
+        "A tool used to cut DNA at specific sequences.",
+        "A gene, such as the ampicillin resistance gene, that allows scientists to identify and select cells that have successfully taken up the recombinant DNA.",
+        "A method for amplifying DNA sequences."
+      ],
+      "answer_index": 2,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the genetic makeup of an individual with sickle-cell anemia?",
+      "options": [
+        "Heterozygous for the HbS gene (HbAS)",
+        "Homozygous heterozygous for the HbA gene (HbAHbA)",
+        "Homozygous for the HbA gene (HbAHbA)",
+        "Carries a single copy of the HbS gene (HbAS)"
+      ],
+      "answer_index": 0,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the term used to describe the trait that appears in the F1 generation when a tall plant is crossed with a dwarf plant?",
+      "options": [
+        "Recessive trait",
+        "Hybrid vigor",
+        "Dominant trait",
+        "Polygenic inheritance"
+      ],
+      "answer_index": 2,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What are mutagens?",
+      "options": [
+        "Proteins that repair damaged DNA.",
+        "Viruses that cause infectious diseases.",
+        "Chemical or physical factors that induce mutations.",
+        "Hormones that regulate bodily functions."
+      ],
+      "answer_index": 2,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What are the two types of sex chromosomes in humans?",
+      "options": [
+        "XX and YY",
+        "X and Y",
+        "AA and BB",
+        "XX and XY"
+      ],
+      "answer_index": 1,
+      "difficulty": "Easy"
+    }
+  ],
+  "questions_with_answers": [
+    {
+      "question_id": "0",
+      "question": "What is a selectable marker in the context of recombinant DNA technology?",
+      "options": [
+        "A gene that codes for a protein involved in DNA replication.",
+        "A tool used to cut DNA at specific sequences.",
+        "A gene, such as the ampicillin resistance gene, that allows scientists to identify and select cells that have successfully taken up the recombinant DNA.",
+        "A method for amplifying DNA sequences."
+      ],
+      "user_answer": "A gene that codes for a protein involved in DNA replication.",
+      "correct_answer": "A gene, such as the ampicillin resistance gene, that allows scientists to identify and select cells that have successfully taken up the recombinant DNA.",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1",
+      "question": "What is the genetic makeup of an individual with sickle-cell anemia?",
+      "options": [
+        "Heterozygous for the HbS gene (HbAS)",
+        "Homozygous heterozygous for the HbA gene (HbAHbA)",
+        "Homozygous for the HbA gene (HbAHbA)",
+        "Carries a single copy of the HbS gene (HbAS)"
+      ],
+      "user_answer": "Carries a single copy of the HbS gene (HbAS)",
+      "correct_answer": "Heterozygous for the HbS gene (HbAS)",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "2",
+      "question": "What is the term used to describe the trait that appears in the F1 generation when a tall plant is crossed with a dwarf plant?",
+      "options": [
+        "Recessive trait",
+        "Hybrid vigor",
+        "Dominant trait",
+        "Polygenic inheritance"
+      ],
+      "user_answer": "Polygenic inheritance",
+      "correct_answer": "Dominant trait",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "3",
+      "question": "What are mutagens?",
+      "options": [
+        "Proteins that repair damaged DNA.",
+        "Viruses that cause infectious diseases.",
+        "Chemical or physical factors that induce mutations.",
+        "Hormones that regulate bodily functions."
+      ],
+      "user_answer": "Chemical or physical factors that induce mutations.",
+      "correct_answer": "Chemical or physical factors that induce mutations.",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "4",
+      "question": "What are the two types of sex chromosomes in humans?",
+      "options": [
+        "XX and YY",
+        "X and Y",
+        "AA and BB",
+        "XX and XY"
+      ],
+      "user_answer": "XX and YY",
+      "correct_answer": "X and Y",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    }
+  ],
+  "score": 0.2,
+  "correct": 1,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "12",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-08 00:40:44"
+}

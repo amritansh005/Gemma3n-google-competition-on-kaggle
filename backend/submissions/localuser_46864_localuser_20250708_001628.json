@@ -1,0 +1,146 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_46864",
+  "answers": {
+    "0": "A. Fungi and bacteria",
+    "1": "1:1:1:1",
+    "2": "Complex carbohydrates used for energy storage.",
+    "3": "DNA ligase",
+    "4": "Gestation"
+  },
+  "questions": [
+    {
+      "Topic": "Pollination",
+      "Explanation": "Pollination is the process by which pollen grains are transferred from the anther (male part) to the stigma (female part) of a flower, enabling fertilization and the production of seeds. This process can be facilitated by biotic agents (such as animals) or abiotic agents (such as wind and water). Biotic pollination is more common and involves animals like insects, birds, and bats. Abiotic pollination, though less common, relies on natural elements like wind and water. In both cases, the transfer of pollen grains to the stigma is a matter of chance, so plants often produce a large number of pollen grains to increase the likelihood of successful pollination.",
+      "Question": "What are the two main types of agents that facilitate pollination?",
+      "Answer": "The two main types of agents that facilitate pollination are biotic agents (such as animals) and abiotic agents (such as wind and water).",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.325,
+      "Prerequisites": "Pollination",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Linkage and Gene Mapping",
+      "Explanation": "Linkage refers to the phenomenon where genes located on the same chromosome tend to be inherited together, rather than assorting independently. This is because during meiosis, genes that are close to each other on the same chromosome are less likely to be separated by crossing over. This results in a deviation from the expected Mendelian ratios in the F2 generation. Gene mapping involves determining the relative positions of genes on a chromosome based on the frequency of recombination events.",
+      "Question": "What is the expected F2 ratio when two genes are independent?",
+      "Answer": "The expected F2 ratio when two genes are independent is 9:3:3:1.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.3,
+      "Prerequisites": "Inheritance Patterns",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Enzymes and Their Applications",
+      "Explanation": "Enzymes are biological catalysts that speed up chemical reactions in living organisms. They are used in various industries for different purposes. For example, enzymes like lipases are used in detergents to break down oily stains, making them easier to remove. In the food industry, enzymes like pectinases and proteases are used to clarify fruit juices, making them clearer. Additionally, enzymes like streptokinase are used in medicine to dissolve blood clots, aiding in the treatment of conditions like myocardial infarction.",
+      "Question": "What are enzymes?",
+      "Answer": "Enzymes are biological catalysts that speed up chemical reactions in living organisms.",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.1,
+      "Prerequisites": "No Prerequisites",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Transcription and RNA Processing",
+      "Explanation": "Transcription is the process by which a segment of DNA is copied into RNA by the enzyme RNA polymerase. There are three types of RNA polymerases in eukaryotic cells, each responsible for transcribing different types of RNA. RNA polymerase I transcribes rRNA (28S, 18S, and 5.8S), RNA polymerase II transcribes precursor mRNA (hnRNA), and RNA polymerase III transcribes tRNA, 5S rRNA, and snRNAs. After transcription, the primary transcripts undergo splicing, a process where non-coding regions (introns) are removed, and coding regions (exons) are joined to form functional RNA molecules.",
+      "Question": "Which enzyme is responsible for the transcription of mRNA?",
+      "Answer": "RNA polymerase II",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.275,
+      "Prerequisites": "DNA Replication and Transcription",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    },
+    {
+      "Topic": "Reproduction and Genetics",
+      "Explanation": "Sexual reproduction involves several key steps after sexual intercourse. First, fertilization occurs when a sperm cell fuses with an egg cell. This fusion creates a single cell called a zygote. The zygote then begins to divide and develop into an embryo. The sex of the embryo is determined by sex chromosomes. Females have two X chromosomes (XX), while males have one X and one Y chromosome (XY). The sperm cell can carry either an X or a Y chromosome, which combines with the X chromosome from the egg cell to determine the sex of the embryo. Pregnancy progresses through several stages. The embryo develops into a fetus, which continues to grow and develop until childbirth, also known as parturition. This process ensures the continuation of the species through the production of offspring.",
+      "Question": "What is the process called when sperm fertilizes an ovum to form a zygote?",
+      "Answer": "Fertilization",
+      "Difficulty": "Easy",
+      "StudentLevel": "Beginner",
+      "QuestionType": "General",
+      "QuestionComplexity": 0.425,
+      "Prerequisites": "Male Reproductive System, Fertilization and Early Development",
+      "EstimatedTime": 2.0,
+      "subject": "Biology",
+      "grade": "12"
+    }
+  ],
+  "questions_with_answers": [
+    {
+      "question_id": "0",
+      "question": "What are the two main types of agents that facilitate pollination?",
+      "options": null,
+      "user_answer": "A. Fungi and bacteria",
+      "correct_answer": "The two main types of agents that facilitate pollination are biotic agents (such as animals) and abiotic agents (such as wind and water).",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "1",
+      "question": "What is the expected F2 ratio when two genes are independent?",
+      "options": null,
+      "user_answer": "1:1:1:1",
+      "correct_answer": "The expected F2 ratio when two genes are independent is 9:3:3:1.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "2",
+      "question": "What are enzymes?",
+      "options": null,
+      "user_answer": "Complex carbohydrates used for energy storage.",
+      "correct_answer": "Enzymes are biological catalysts that speed up chemical reactions in living organisms.",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "3",
+      "question": "Which enzyme is responsible for the transcription of mRNA?",
+      "options": null,
+      "user_answer": "DNA ligase",
+      "correct_answer": "RNA polymerase II",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    },
+    {
+      "question_id": "4",
+      "question": "What is the process called when sperm fertilizes an ovum to form a zygote?",
+      "options": null,
+      "user_answer": "Gestation",
+      "correct_answer": "Fertilization",
+      "subject": "Biology",
+      "topic": "",
+      "difficulty": ""
+    }
+  ],
+  "score": 0.0,
+  "correct": 0,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "12",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-08 00:16:28"
+}

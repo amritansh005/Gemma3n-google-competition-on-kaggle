@@ -173,3 +173,93 @@ Requested subjects: [{'subject': 'chemistry', 'grade': '12', 'difficulty': 'easy
 Number of questions returned: 10
 Subjects: ['Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Chemistry', 'Biology', 'Biology', 'Biology', 'Biology', 'Biology']
 ========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_99340
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_53601
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_79126
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_28733
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_52478
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_23580
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_19371
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_88386
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_32540
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_78046
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_46864
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_48892
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_96174
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_11th/Biology_11th_Cleaned.sqlite, Table: Biology_11th_Cleaned, Subject: Biology, Grade: 11, Difficulty: easy, Found: 1161
+Exam ID: localuser_localuser_34786
+Requested subjects: [{'subject': 'biology', 'grade': '11', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
+DB: NCERT_Biology_12th/Biology_12th_Cleaned.sqlite, Table: Biology_12th_Cleaned, Subject: Biology, Grade: 12, Difficulty: easy, Found: 1131
+Exam ID: localuser_localuser_46490
+Requested subjects: [{'subject': 'biology', 'grade': '12', 'difficulty': 'easy'}]
+Number of questions returned: 5
+Subjects: ['Biology', 'Biology', 'Biology', 'Biology', 'Biology']
+========================================
