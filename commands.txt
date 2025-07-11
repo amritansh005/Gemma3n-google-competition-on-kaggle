@@ -1,1 +1,2 @@
 cd modern_desktop_app; npm install; npm start
+uvicorn backend.main2:app --reload

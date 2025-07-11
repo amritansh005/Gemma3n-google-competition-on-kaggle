@@ -1,0 +1,156 @@
+{
+  "user_id": "localuser",
+  "exam_id": "localuser_19681",
+  "answers": {
+    "0": "The total amount of radiation emitted by a radioactive substance.",
+    "1": "Control the mother's immune system to prevent rejection of the fetus.",
+    "2": "The use of living organisms and biological systems to create or modify products or processes.",
+    "3": "Amino Acid Sequence 1 and Amino Acid Sequence 2",
+    "4": "T represents a dominant allele for tallness, and t represents a recessive allele for dwarfism."
+  },
+  "questions": [
+    {
+      "question": "What is the definition of half-life in the context of radioactive decay?",
+      "options": [
+        "The total amount of radiation emitted by a radioactive substance.",
+        "The time required for a radioactive substance to become completely stable.",
+        "The period during which a radioactive substance exists before undergoing chemical change.",
+        "The time it takes for all atoms in a sample of a radioactive substance to decay."
+      ],
+      "answer_index": 0,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the role of hormones in pregnancy?",
+      "options": [
+        "Regulate blood pressure and heart rate in the mother.",
+        "Control the mother's immune system to prevent rejection of the fetus.",
+        "Support fetal growth, facilitate metabolic changes in the mother, and maintain pregnancy.",
+        "Promote the development of the baby's sensory organs."
+      ],
+      "answer_index": 2,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is biotechnology?",
+      "options": [
+        "The study of ancient civilizations through archaeological excavations.",
+        "The application of engineering principles to design and build machines.",
+        "The use of living organisms and biological systems to create or modify products or processes.",
+        "The process of extracting minerals from the earth's crust."
+      ],
+      "answer_index": 2,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What are the two polypeptide chains that make up insulin?",
+      "options": [
+        "Chain Alpha and Chain Beta",
+        "Polypeptide 1 and Polypeptide 2",
+        "Subunit X and Subunit Y",
+        "Amino Acid Sequence 1 and Amino Acid Sequence 2"
+      ],
+      "answer_index": 0,
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What do the symbols 'T' and 't' represent in the context of plant genetics?",
+      "options": [
+        "T represents a dominant allele for tallness, and t represents a recessive allele for dwarfism.",
+        "T signifies the presence of a specific enzyme involved in photosynthesis, while t indicates its absence.",
+        "T denotes a gene responsible for flower color, and t represents a gene affecting leaf shape.",
+        "T symbolizes a type of nutrient uptake, and t represents a form of water absorption."
+      ],
+      "answer_index": 0,
+      "difficulty": "Easy"
+    }
+  ],
+  "questions_with_answers": [
+    {
+      "question_id": "0",
+      "question": "What is the definition of half-life in the context of radioactive decay?",
+      "options": [
+        "The total amount of radiation emitted by a radioactive substance.",
+        "The time required for a radioactive substance to become completely stable.",
+        "The period during which a radioactive substance exists before undergoing chemical change.",
+        "The time it takes for all atoms in a sample of a radioactive substance to decay."
+      ],
+      "user_answer": "The total amount of radiation emitted by a radioactive substance.",
+      "correct_answer": "The total amount of radiation emitted by a radioactive substance.",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1",
+      "question": "What is the role of hormones in pregnancy?",
+      "options": [
+        "Regulate blood pressure and heart rate in the mother.",
+        "Control the mother's immune system to prevent rejection of the fetus.",
+        "Support fetal growth, facilitate metabolic changes in the mother, and maintain pregnancy.",
+        "Promote the development of the baby's sensory organs."
+      ],
+      "user_answer": "Control the mother's immune system to prevent rejection of the fetus.",
+      "correct_answer": "Support fetal growth, facilitate metabolic changes in the mother, and maintain pregnancy.",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "2",
+      "question": "What is biotechnology?",
+      "options": [
+        "The study of ancient civilizations through archaeological excavations.",
+        "The application of engineering principles to design and build machines.",
+        "The use of living organisms and biological systems to create or modify products or processes.",
+        "The process of extracting minerals from the earth's crust."
+      ],
+      "user_answer": "The use of living organisms and biological systems to create or modify products or processes.",
+      "correct_answer": "The use of living organisms and biological systems to create or modify products or processes.",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "3",
+      "question": "What are the two polypeptide chains that make up insulin?",
+      "options": [
+        "Chain Alpha and Chain Beta",
+        "Polypeptide 1 and Polypeptide 2",
+        "Subunit X and Subunit Y",
+        "Amino Acid Sequence 1 and Amino Acid Sequence 2"
+      ],
+      "user_answer": "Amino Acid Sequence 1 and Amino Acid Sequence 2",
+      "correct_answer": "Chain Alpha and Chain Beta",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "4",
+      "question": "What do the symbols 'T' and 't' represent in the context of plant genetics?",
+      "options": [
+        "T represents a dominant allele for tallness, and t represents a recessive allele for dwarfism.",
+        "T signifies the presence of a specific enzyme involved in photosynthesis, while t indicates its absence.",
+        "T denotes a gene responsible for flower color, and t represents a gene affecting leaf shape.",
+        "T symbolizes a type of nutrient uptake, and t represents a form of water absorption."
+      ],
+      "user_answer": "T represents a dominant allele for tallness, and t represents a recessive allele for dwarfism.",
+      "correct_answer": "T represents a dominant allele for tallness, and t represents a recessive allele for dwarfism.",
+      "subject": "",
+      "topic": "",
+      "difficulty": "Easy"
+    }
+  ],
+  "score": 0.6,
+  "correct": 3,
+  "total": 5,
+  "filters": [
+    {
+      "subject": "biology",
+      "grade": "12",
+      "difficulty": "easy"
+    }
+  ],
+  "submitted_at": "2025-07-12 02:21:16"
+}

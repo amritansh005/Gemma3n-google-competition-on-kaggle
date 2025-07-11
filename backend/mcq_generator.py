@@ -12,11 +12,12 @@ def generate_mcq_with_ollama(question, answer, difficulty):
     else:
         distractor_instruction = "Make the 3 incorrect options very close to the correct answer, but still wrong."
     prompt = (
-        f"Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. "
+        f"Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. "
         f"{distractor_instruction}\n"
         f"Question: {question}\n"
         f"Correct Answer: {answer}\n"
-        f"Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON."
+        f"Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). "
+        f"Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON."
     )
     try:
         response = requests.post(
@@ -38,6 +39,13 @@ def generate_mcq_with_ollama(question, answer, difficulty):
         match = re.search(r"\{.*\}", text, re.DOTALL)
         if match:
             mcq_json = pyjson.loads(match.group(0))
+            # Post-process to remove any leading "A. ", "B. ", "C. ", "D. " or similar from options
+            import re
+            cleaned_options = []
+            for opt in mcq_json.get("options", []):
+                cleaned_opt = re.sub(r"^[A-Da-d][\.\)]\s*", "", opt).strip()
+                cleaned_options.append(cleaned_opt)
+            mcq_json["options"] = cleaned_options
             return mcq_json
         else:
             return None
@@ -64,10 +72,14 @@ def generate_mcqs_for_exam(exam):
                 "difficulty": difficulty
             })
         else:
+            import random
+            options = [answer_text, "", "", ""]
+            random.shuffle(options)
+            answer_index = options.index(answer_text)
             mcq_results.append({
                 "question": question_text,
-                "options": [answer_text, "Option B", "Option C", "Option D"],
-                "answer_index": 0,
+                "options": options,
+                "answer_index": answer_index,
                 "difficulty": difficulty
             })
     return mcq_results

@@ -10,19 +10,62 @@
     body {
       background: #f5f6fa;
     }
+    .test-history-item {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 8px rgba(44,62,80,0.07);
+      transition: box-shadow 0.2s, border-color 0.2s;
+      cursor: pointer;
+      font-size: 1.08rem;
+    }
+    .test-history-item:hover {
+      border-color: #1976d2;
+      box-shadow: 0 4px 16px rgba(25, 118, 210, 0.10);
+      background: #f0f7ff;
+    }
     .brand-logo {
       font-weight: 700;
       letter-spacing: 1px;
     }
     .side-nav-fixed {
       height: 100vh;
-      background: #263238;
+      background: linear-gradient(135deg, #263238 80%, #37474f 100%);
       color: #fff;
       padding-top: 2rem;
+      box-shadow: 2px 0 18px 0 rgba(44,62,80,0.10);
+      border-top-right-radius: 18px;
+      border-bottom-right-radius: 18px;
+      min-width: 240px;
+      font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+      transition: box-shadow 0.2s;
+    }
+    .side-nav-fixed .elegant-tab {
+      font-size: 1.13rem;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      border-radius: 10px;
+      margin-bottom: 0.5rem;
+      transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+      position: relative;
+      z-index: 1;
+    }
+    .side-nav-fixed .elegant-tab:hover, .side-nav-fixed .elegant-tab:focus {
+      background: #2e3c43;
+      color: #90caf9;
+      box-shadow: 0 2px 8px rgba(25, 118, 210, 0.10);
+      cursor: pointer;
     }
     .side-nav-fixed .active {
-      background: #37474f;
-      border-radius: 8px;
+      background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(25, 118, 210, 0.13);
+      border-radius: 10px;
+      font-weight: 700;
+      position: relative;
+      z-index: 2;
     }
     .main-content {
       margin-left: 260px;
@@ -33,8 +76,12 @@
       flex-direction: column;
     }
     .card {
-      border-radius: 12px;
-      box-shadow: 0 4px 24px rgba(44,62,80,0.08);
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(44,62,80,0.13);
+      border: 1.5px solid #e3e7ef;
+      background: linear-gradient(135deg, #fafdff 80%, #e3f0ff 100%);
+      padding: 2.5rem 2.5rem 2rem 2.5rem !important;
+      transition: box-shadow 0.2s, border-color 0.2s;
     }
     .mcq-options label {
       display: block;
@@ -46,19 +93,84 @@
       margin-bottom: 0.5rem;
     }
     .feature-title {
-      font-size: 1.5rem;
-      font-weight: 600;
-      margin-bottom: 1.5rem;
-      color: #263238;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      color: #1a237e;
+      letter-spacing: 0.5px;
+      font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+      text-shadow: 0 2px 8px rgba(44,62,80,0.04);
     }
     .btn {
-      border-radius: 8px;
+      border-radius: 10px;
+      font-size: 1.08rem;
+      font-weight: 600;
+      padding: 0.95rem 2.2rem 0.95rem 2.2rem;
+      line-height: 1.3;
+      box-shadow: 0 2px 8px rgba(25, 118, 210, 0.10);
+      background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+      transition: box-shadow 0.18s, background 0.18s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn:hover, .btn:focus {
+      box-shadow: 0 4px 16px rgba(25, 118, 210, 0.18);
+      background: linear-gradient(90deg, #1565c0 60%, #64b5f6 100%);
     }
     .score-result {
       font-size: 1.2rem;
       font-weight: 600;
       color: #388e3c;
       margin-top: 1.5rem;
+    }
+    /* Custom subject checkbox styling */
+    .subject-list label {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      font-size: 1.13rem;
+      font-weight: 500;
+      color: #1976d2;
+      background: #f4f8ff;
+      border-radius: 7px;
+      padding: 0.45rem 1rem 0.45rem 0.7rem;
+      margin-bottom: 0.4rem;
+      box-shadow: 0 1px 4px rgba(25, 118, 210, 0.04);
+      transition: background 0.18s, box-shadow 0.18s;
+      cursor: pointer;
+    }
+    .subject-list label:hover {
+      background: #e3f0ff;
+      box-shadow: 0 2px 8px rgba(25, 118, 210, 0.10);
+    }
+    .subject-list input[type="checkbox"]:checked + span {
+      color: #0d47a1;
+      font-weight: 600;
+    }
+    .subject-list input[type="checkbox"] {
+      accent-color: #1976d2;
+      width: 1.1em;
+      height: 1.1em;
+      margin-right: 0.5em;
+    }
+    /* Section separation */
+    .mcq-form-section {
+      margin-bottom: 2rem;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid #e3e7ef;
+    }
+    .mcq-form-section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    /* Main content background */
+    .main-content {
+      margin-left: 260px;
+      padding: 2.5rem 3.5rem;
+      min-height: 100vh;
+      background: linear-gradient(120deg, #f5f6fa 80%, #e3f0ff 100%);
     }
     @media (max-width: 900px) {
       .main-content {
@@ -76,11 +188,11 @@
     <li style="padding: 0 1.5rem 1.5rem 1.5rem;">
       <span class="brand-logo" style="font-size: 1.7rem;">EduSuite</span>
     </li>
-    <li class="active" id="tab-mcq" style="padding: 0.5rem 1.5rem; cursor:pointer;">
-      <i class="material-icons left">assignment</i> MCQ Exam
+    <li class="active elegant-tab" id="tab-mcq" style="padding: 0.5rem 1.5rem; cursor:pointer;">
+      Exam Generator
     </li>
-    <li id="tab-history" style="padding: 0.5rem 1.5rem; cursor:pointer;">
-      <i class="material-icons left">history</i> Previous Tests
+    <li class="elegant-tab" id="tab-history" style="padding: 0.5rem 1.5rem; cursor:pointer;">
+      Previous Tests
     </li>
     <li style="padding: 0.5rem 1.5rem; color: #90a4ae;">
       <i class="material-icons left">more_horiz</i> More features coming soon
@@ -94,24 +206,24 @@
         <div class="row">
           <div class="input-field col s12 m4">
             <p style="margin-bottom: 0.7rem;"><b>Subjects</b></p>
-            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <div class="subject-list" style="display: flex; flex-direction: column; gap: 0.5rem;">
               <label>
-                <input type="checkbox" class="with-gap" name="subject" value="physics" checked/>
+                <input type="checkbox" name="subject" value="physics" checked/>
                 <span>Physics</span>
               </label>
               <label>
-                <input type="checkbox" class="with-gap" name="subject" value="chemistry" checked/>
+                <input type="checkbox" name="subject" value="chemistry" checked/>
                 <span>Chemistry</span>
               </label>
               <label>
-                <input type="checkbox" class="with-gap" name="subject" value="biology" checked/>
+                <input type="checkbox" name="subject" value="biology" checked/>
                 <span>Biology</span>
               </label>
             </div>
           </div>
-          <div class="input-field col s12 m4">
+          <div class="input-field col s12 m4 mcq-form-section">
             <b>Grade</b>
-            <select id="grade" class="browser-default">
+            <select id="grade" class="browser-default" style="margin-bottom: 1.2rem;">
               <option value="random">Random</option>
               <option value="11">11</option>
               <option value="12">12</option>
@@ -232,7 +344,7 @@
           optionsDiv.innerHTML += `
             <label>
               <input type="radio" name="q${qid}" value="${opt}" required/>
-              <span>${String.fromCharCode(65+optIdx)}. ${opt}</span>
+<span>${opt}</span>
             </label>
           `;
         });
@@ -353,15 +465,13 @@
         }
         // Render list
         listDiv.innerHTML = "";
-        const ul = document.createElement("ul");
         submissions.forEach((sub, idx) => {
-          const li = document.createElement("li");
-          li.style.cursor = "pointer";
-          li.textContent = `Test ${idx + 1}: ${sub.submitted_at} | Score: ${sub.correct}/${sub.total} | Subjects: ${getSubjectsString(sub.filters)}`;
-          li.onclick = () => fetchTestDetails(sub.filename);
-          ul.appendChild(li);
+          const div = document.createElement("div");
+          div.className = "test-history-item";
+          div.textContent = `Test ${idx + 1}: ${sub.submitted_at} | Score: ${sub.correct}/${sub.total} | Subjects: ${getSubjectsString(sub.filters)}`;
+          div.onclick = () => fetchTestDetails(sub.filename);
+          listDiv.appendChild(div);
         });
-        listDiv.appendChild(ul);
       } catch (err) {
         listDiv.innerHTML = "Error loading previous tests.";
       }

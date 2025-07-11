@@ -3208,3 +3208,348 @@ RESPONSE:
 }
 ```
 ========================================
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E3CB17D60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E3CB17820>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E3CB39550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E3CB39F70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E3CB3A9A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08DDE190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08DDE760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E535E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E56B20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E56EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E56250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E53850>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E53490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08DDE970>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E618E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08DDE250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E53F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E539A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E56F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AF08E618B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001231EC73DF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001231EC73F40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001231EEB54F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001231EEBA040>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001231EEBAA30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023823E84D90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023823E84CD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023823F29610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023823F29FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+ERROR: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023823F32A00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options very close to the correct answer, but still wrong.
+Question: Provide an example of a recombinant protein used in medical practice and explain its therapeutic use.
+Correct Answer: An example of a recombinant protein is insulin, which is used to treat diabetes. Recombinant insulin is produced by inserting the human insulin gene into bacteria, which then produce the insulin protein. This protein is purified and used to regulate blood sugar levels in diabetic patients.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Insulin is a recombinant protein used to treat diabetes by regulating blood glucose levels. It's produced by inserting the gene into yeast, which then synthesize the protein.",
+    "Growth hormone, produced through recombinant DNA technology, is used to treat growth disorders in children by stimulating bone and tissue growth.",
+    "Erythropoietin (EPO), a recombinant protein, is used to treat anemia by stimulating red blood cell production in the bone marrow.",
+    "Monoclonal antibodies, created using recombinant technology, are used to target specific cancer cells and prevent their growth."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options very close to the correct answer, but still wrong.
+Question: Provide an example of a contribution made by the scientist to school education.
+Correct Answer: An example of the scientist's contribution to school education is his leadership in bringing out the very first textbooks of Biology for Higher Secondary Schools published by NCERT in 1964.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "His development of innovative teaching methodologies for science classes.",
+    "His pioneering research in genetics, directly incorporated into the curriculum.",
+    "His establishment of science laboratories in schools across the country.",
+    "His leadership in bringing out the very first textbooks of Biology for Higher Secondary Schools published by NCERT in 1964."
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options very close to the correct answer, but still wrong.
+Question: Provide an example of a physical side effect that anabolic steroids can cause in males.
+Correct Answer: An example of a physical side effect that anabolic steroids can cause in males is the reduction of the size of the testicles and decreased sperm production.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Increased muscle mass and strength.",
+    "Enlargement of the prostate gland.",
+    "Reduction of the size of the testes and decreased sperm production.",
+    "Enhanced bone density and growth."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options very close to the correct answer, but still wrong.
+Question: Provide an example of an organism that exhibits semelparity and one that exhibits iteroparity.
+Correct Answer: An example of an organism that exhibits semelparity is the Pacific salmon, which breeds once and then dies. An example of an organism that exhibits iteroparity is a human, who can reproduce multiple times throughout their lifetime.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The sea turtle exhibits semelparity, laying a single clutch of eggs. The rabbit exhibits iteroparity, reproducing several times a year.",
+    "The salmon exhibits iteroparity, reproducing annually throughout its life. The elephant exhibits semelparity, breeding only once in its lifetime.",
+    "The lion exhibits semelparity, mating only once in its life. The human exhibits iteroparity, reproducing multiple times throughout their lifetime.",
+    "The frog exhibits semelparity, reproducing only once before death. The dog exhibits iteroparity, reproducing multiple times throughout its lifetime."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options (A, B, C, D) where one is correct and the other three are distractors. Make the 3 incorrect options very close to the correct answer, but still wrong.
+Question: Provide an example of a polynucleotide chain and explain its significance in biological systems.
+Correct Answer: An example of a polynucleotide chain is DNA (deoxyribonucleic acid). DNA is significant in biological systems because it carries genetic information and is essential for the replication and inheritance of genetic traits. It consists of a double helix structure formed by two complementary polynucleotide chains held together by hydrogen bonds between the nitrogenous bases.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "RNA (ribonucleic acid) is a polynucleotide chain, crucial for protein synthesis and carrying genetic information, although it lacks the double helix structure of DNA.",
+    "Protein is a polynucleotide chain, essential for catalyzing biochemical reactions and providing structural support within cells.",
+    "DNA (deoxyribonucleic acid) is a polynucleotide chain, vital for storing and transmitting genetic information, enabling inheritance and directing cellular functions.",
+    "Lipids are polynucleotide chains, responsible for energy storage and forming cell membranes, playing a key role in cellular processes."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the process called where the cytoplasm of a cell divides into two daughter cells?
+Correct Answer: Cytokinesis
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Mitosis",
+    "Translation",
+    "Meiosis",
+    "Cytokinesis"
+  ],
+  "answer_index": 3
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the primary function of the light reaction in photosynthesis?
+Correct Answer: The primary function of the light reaction in photosynthesis is to convert light energy into chemical energy in the form of ATP and NADPH.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "To break down glucose molecules into simpler sugars for energy.",
+    "To absorb carbon dioxide from the atmosphere and fix it into organic compounds.",
+    "To convert light energy into chemical energy in the form of ATP and NADPH.",
+    "To release oxygen as a byproduct of the breakdown of water molecules."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the three main parts of a neuron?
+Correct Answer: The three main parts of a neuron are the cell body, dendrites, and the axon.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Cytoplasm, nucleus, cell membrane",
+    "Synapse, myelin sheath, neurotransmitter",
+    "Cell body, axon terminal, glial cells",
+    "Dendrites, axon, synapse"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two main regions where meristematic cells are found in plants?
+Correct Answer: The two main regions where meristematic cells are found in plants are the root apex and the shoot apex.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Stem base and leaf margins",
+    "Root tips and bud scales",
+    "Stem apex and root apex",
+    "Flower petals and fruit walls"
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the first step in the catalytic cycle of an enzyme action?
+Correct Answer: The first step in the catalytic cycle of an enzyme action is the binding of the substrate to the active site of the enzyme.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Product formation through lowering the activation energy.",
+    "Enzyme conformational change induced by substrate binding.",
+    "Substrate binding to the active site of the enzyme.",
+    "Release of the product from the active site."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the definition of half-life in the context of radioactive decay?
+Correct Answer: Half-life is the time it takes for half of the atoms in a sample of a radioactive substance to decay.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The total amount of radiation emitted by a radioactive substance.",
+    "The time required for a radioactive substance to become completely stable.",
+    "The period during which a radioactive substance exists before undergoing chemical change.",
+    "The time it takes for all atoms in a sample of a radioactive substance to decay."
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is the role of hormones in pregnancy?
+Correct Answer: Hormones support fetal growth, facilitate metabolic changes in the mother, and maintain pregnancy.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Regulate blood pressure and heart rate in the mother.",
+    "Control the mother's immune system to prevent rejection of the fetus.",
+    "Support fetal growth, facilitate metabolic changes in the mother, and maintain pregnancy.",
+    "Promote the development of the baby's sensory organs."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What is biotechnology?
+Correct Answer: Biotechnology is the use of biological systems, living organisms, or derivatives thereof, to make or modify products or processes for specific use.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "The study of ancient civilizations through archaeological excavations.",
+    "The application of engineering principles to design and build machines.",
+    "The use of living organisms and biological systems to create or modify products or processes.",
+    "The process of extracting minerals from the earth's crust."
+  ],
+  "answer_index": 2
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What are the two polypeptide chains that make up insulin?
+Correct Answer: The two polypeptide chains that make up insulin are chain A and chain B.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "Chain Alpha and Chain Beta",
+    "Polypeptide 1 and Polypeptide 2",
+    "Subunit X and Subunit Y",
+    "Amino Acid Sequence 1 and Amino Acid Sequence 2"
+  ],
+  "answer_index": 0
+}
+```
+========================================
+
+PROMPT:
+Given the following question and answer, generate 4 MCQ options where one is correct and the other three are distractors. Make the 3 incorrect options totally different from the correct answer.
+Question: What do the symbols 'T' and 't' represent in the context of plant genetics?
+Correct Answer: 'T' represents the allele for tallness, and 't' represents the allele for dwarfism.
+Return ONLY the result as a JSON object with keys: 'options' (a list of 4 strings), and 'answer_index' (the index of the correct answer in the list, 0-based). Each option should be ONLY the content, WITHOUT any 'A.', 'B.', 'C.', or 'D.' or any similar prefix. Do not include any explanation or text outside the JSON.
+RESPONSE:
+```json
+{
+  "options": [
+    "T represents a dominant allele for tallness, and t represents a recessive allele for dwarfism.",
+    "T signifies the presence of a specific enzyme involved in photosynthesis, while t indicates its absence.",
+    "T denotes a gene responsible for flower color, and t represents a gene affecting leaf shape.",
+    "T symbolizes a type of nutrient uptake, and t represents a form of water absorption."
+  ],
+  "answer_index": 0
+}
+```
+========================================

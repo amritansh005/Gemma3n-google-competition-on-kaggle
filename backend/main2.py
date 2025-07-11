@@ -327,6 +327,14 @@ def list_user_submissions(user_id: str):
                 })
         except Exception as e:
             continue
+    # Sort submissions by submitted_at in descending order (most recent first)
+    from datetime import datetime
+    def parse_dt(s):
+        try:
+            return datetime.strptime(s, "%Y-%m-%d %H:%M:%S")
+        except Exception:
+            return datetime.min
+    submissions = sorted(submissions, key=lambda x: parse_dt(x.get("submitted_at", "")), reverse=True)
     return submissions
 
 @app.get("/submission/{filename}")
